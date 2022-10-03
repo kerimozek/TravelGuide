@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		6E3DD65D28E76219000BDDD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3DD65C28E76219000BDDD8 /* AppDelegate.swift */; };
 		6E3DD65F28E76219000BDDD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3DD65E28E76219000BDDD8 /* SceneDelegate.swift */; };
-		6E3DD66128E76219000BDDD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3DD66028E76219000BDDD8 /* ViewController.swift */; };
 		6E3DD66428E76219000BDDD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3DD66228E76219000BDDD8 /* Main.storyboard */; };
 		6E3DD66628E7621B000BDDD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E3DD66528E7621B000BDDD8 /* Assets.xcassets */; };
 		6E3DD66928E7621B000BDDD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3DD66728E7621B000BDDD8 /* LaunchScreen.storyboard */; };
+		6E5ED72C28E9C731005C7E0B /* BookmarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5ED72B28E9C731005C7E0B /* BookmarksViewController.swift */; };
+		6E5ED72F28E9C743005C7E0B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5ED72E28E9C743005C7E0B /* SearchViewController.swift */; };
+		6E5ED73328E9C784005C7E0B /* FlightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5ED73228E9C784005C7E0B /* FlightsViewController.swift */; };
+		6E5ED73528E9C78E005C7E0B /* HotelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5ED73428E9C78E005C7E0B /* HotelsViewController.swift */; };
+		6E5ED73728E9C79B005C7E0B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5ED73628E9C79B005C7E0B /* DetailsViewController.swift */; };
+		6E5ED73928E9C8E5005C7E0B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5ED73828E9C8E5005C7E0B /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6E3DD65928E76219000BDDD8 /* TravelGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E3DD65C28E76219000BDDD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E3DD65E28E76219000BDDD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6E3DD66028E76219000BDDD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6E3DD66328E76219000BDDD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6E3DD66528E7621B000BDDD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E3DD66828E7621B000BDDD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E3DD66A28E7621B000BDDD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E5ED72B28E9C731005C7E0B /* BookmarksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksViewController.swift; sourceTree = "<group>"; };
+		6E5ED72E28E9C743005C7E0B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		6E5ED73228E9C784005C7E0B /* FlightsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsViewController.swift; sourceTree = "<group>"; };
+		6E5ED73428E9C78E005C7E0B /* HotelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsViewController.swift; sourceTree = "<group>"; };
+		6E5ED73628E9C79B005C7E0B /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		6E5ED73828E9C8E5005C7E0B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,60 @@
 		6E3DD65B28E76219000BDDD8 /* TravelGuide */ = {
 			isa = PBXGroup;
 			children = (
-				6E3DD65C28E76219000BDDD8 /* AppDelegate.swift */,
-				6E3DD65E28E76219000BDDD8 /* SceneDelegate.swift */,
-				6E3DD66028E76219000BDDD8 /* ViewController.swift */,
+				6E5ED72A28E9C6F7005C7E0B /* Resources */,
+				6E5ED73028E9C758005C7E0B /* Details */,
+				6E5ED72728E9C6BB005C7E0B /* Main */,
+				6E5ED72928E9C6D6005C7E0B /* Bookmarks */,
+				6E5ED72828E9C6D1005C7E0B /* Search */,
 				6E3DD66228E76219000BDDD8 /* Main.storyboard */,
 				6E3DD66528E7621B000BDDD8 /* Assets.xcassets */,
-				6E3DD66728E7621B000BDDD8 /* LaunchScreen.storyboard */,
 				6E3DD66A28E7621B000BDDD8 /* Info.plist */,
 			);
 			path = TravelGuide;
+			sourceTree = "<group>";
+		};
+		6E5ED72728E9C6BB005C7E0B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6E5ED73828E9C8E5005C7E0B /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		6E5ED72828E9C6D1005C7E0B /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				6E5ED72E28E9C743005C7E0B /* SearchViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		6E5ED72928E9C6D6005C7E0B /* Bookmarks */ = {
+			isa = PBXGroup;
+			children = (
+				6E5ED72B28E9C731005C7E0B /* BookmarksViewController.swift */,
+			);
+			path = Bookmarks;
+			sourceTree = "<group>";
+		};
+		6E5ED72A28E9C6F7005C7E0B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E3DD65C28E76219000BDDD8 /* AppDelegate.swift */,
+				6E3DD65E28E76219000BDDD8 /* SceneDelegate.swift */,
+				6E3DD66728E7621B000BDDD8 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6E5ED73028E9C758005C7E0B /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				6E5ED73228E9C784005C7E0B /* FlightsViewController.swift */,
+				6E5ED73428E9C78E005C7E0B /* HotelsViewController.swift */,
+				6E5ED73628E9C79B005C7E0B /* DetailsViewController.swift */,
+			);
+			path = Details;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +193,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E3DD66128E76219000BDDD8 /* ViewController.swift in Sources */,
+				6E5ED73328E9C784005C7E0B /* FlightsViewController.swift in Sources */,
+				6E5ED72F28E9C743005C7E0B /* SearchViewController.swift in Sources */,
+				6E5ED72C28E9C731005C7E0B /* BookmarksViewController.swift in Sources */,
+				6E5ED73728E9C79B005C7E0B /* DetailsViewController.swift in Sources */,
+				6E5ED73528E9C78E005C7E0B /* HotelsViewController.swift in Sources */,
 				6E3DD65D28E76219000BDDD8 /* AppDelegate.swift in Sources */,
 				6E3DD65F28E76219000BDDD8 /* SceneDelegate.swift in Sources */,
+				6E5ED73928E9C8E5005C7E0B /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
