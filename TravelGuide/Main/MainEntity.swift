@@ -10,16 +10,16 @@ import Foundation
 
 struct topPick: Codable {
     
-    let id: Int
-    let category: String
-    let images: String
-    let description: String
-    let title: String
+    var id: Int
+    var category: String
+    var images: String
+    var description: String
+    var title: String
 }
 
 struct sampleTopPick: Codable {
     
-    let topPickList: [topPick]
+    var topPickList: [topPick]
 }
 
 

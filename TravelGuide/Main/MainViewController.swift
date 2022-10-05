@@ -70,9 +70,27 @@ extension MainViewController: UICollectionViewDataSource {
 
 extension MainViewController: UICollectionViewDelegate {
     
+    
+    
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+//        var detailsVC: UIViewController?
+//        let detailsType = "otel"
+//        if detailsType == "otel" {
+//
+//            detailsVC = storyboard?.instantiateViewController(withIdentifier: "DetailsViewController") as! DetailsViewController
+//
+//        } else if detailsType == "flight"
+//
+//        {
+//            detailsVC = storyboard?.instantiateViewController(withIdentifier: "FlightsViewController") as! DetailsViewController
+//
+//        } else {
+//            detailsVC = storyboard?.instantiateViewController(withIdentifier: "HotelsViewController") as! DetailsViewController
+//        }
+    
         let detailsVC = storyboard?.instantiateViewController(withIdentifier: "DetailsViewController") as! DetailsViewController
-        detailsVC.model.posts = viewModel.topPickItem(at: indexPath.row)
+        detailsVC.model.topPickData = viewModel.topPickItem(at: indexPath.row)
         navigationController?.pushViewController(detailsVC, animated: true)
     }
 }
@@ -83,3 +101,5 @@ extension MainViewController: UICollectionViewDelegateFlowLayout {
         return CGSize(width: collectionView.frame.width / 1.5 , height: collectionView.frame.height)
     }
 }
+
+

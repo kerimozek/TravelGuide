@@ -27,16 +27,16 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oAz-Mc-df5">
-                                <rect key="frame" x="8" y="148" width="35.5" height="21"/>
+                                <rect key="frame" x="8" y="146" width="33" height="20"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="3sD-XB-Kla"/>
+                                    <constraint firstAttribute="height" constant="20" id="3sD-XB-Kla"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" systemColor="linkColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SNW-Vl-KiD">
-                                <rect key="frame" x="8" y="173" width="257" height="21.5"/>
+                                <rect key="frame" x="8" y="166" width="257" height="21.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -48,9 +48,9 @@
                             <constraint firstItem="KtL-LQ-h0s" firstAttribute="top" secondItem="BL8-ya-Hy4" secondAttribute="top" id="8WP-p0-Nj3"/>
                             <constraint firstItem="KtL-LQ-h0s" firstAttribute="leading" secondItem="BL8-ya-Hy4" secondAttribute="leading" id="Aae-y7-fYB"/>
                             <constraint firstAttribute="trailing" secondItem="SNW-Vl-KiD" secondAttribute="trailing" constant="8" id="Prx-GA-4n3"/>
-                            <constraint firstItem="SNW-Vl-KiD" firstAttribute="top" secondItem="oAz-Mc-df5" secondAttribute="bottom" constant="4" id="YHH-iz-uNV"/>
+                            <constraint firstItem="SNW-Vl-KiD" firstAttribute="top" secondItem="oAz-Mc-df5" secondAttribute="bottom" id="YHH-iz-uNV"/>
                             <constraint firstItem="SNW-Vl-KiD" firstAttribute="leading" secondItem="BL8-ya-Hy4" secondAttribute="leading" constant="8" id="e2X-GH-aFa"/>
-                            <constraint firstItem="oAz-Mc-df5" firstAttribute="top" secondItem="KtL-LQ-h0s" secondAttribute="bottom" constant="8" id="s3C-sv-u8m"/>
+                            <constraint firstItem="oAz-Mc-df5" firstAttribute="top" secondItem="KtL-LQ-h0s" secondAttribute="bottom" constant="6" id="s3C-sv-u8m"/>
                             <constraint firstItem="oAz-Mc-df5" firstAttribute="leading" secondItem="BL8-ya-Hy4" secondAttribute="leading" constant="8" id="zgH-gN-mXB"/>
                         </constraints>
                     </view>
