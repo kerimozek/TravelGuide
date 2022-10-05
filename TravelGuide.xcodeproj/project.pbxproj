@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E0AA3DC28ECB31100659135 /* FlightsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0AA3DB28ECB31100659135 /* FlightsViewModel.swift */; };
+		6E0AA3DE28ECB31B00659135 /* FlightsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0AA3DD28ECB31B00659135 /* FlightsModel.swift */; };
+		6E0AA3E028ECBA0900659135 /* DetailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0AA3DF28ECBA0900659135 /* DetailEntity.swift */; };
+		6E0AA3E328ECE33F00659135 /* hotels.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E0AA3E128ECE33F00659135 /* hotels.json */; };
+		6E0AA3E428ECE33F00659135 /* flights.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E0AA3E228ECE33F00659135 /* flights.json */; };
+		6E0AA3E628ECE38B00659135 /* FlightsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0AA3E528ECE38B00659135 /* FlightsEntity.swift */; };
+		6E0AA3E928ECE60400659135 /* FlightsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0AA3E728ECE60400659135 /* FlightsTableViewCell.swift */; };
+		6E0AA3EA28ECE60400659135 /* FlightsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E0AA3E828ECE60400659135 /* FlightsTableViewCell.xib */; };
+		6E0AA3ED28ECEEED00659135 /* HotelsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0AA3EB28ECEEED00659135 /* HotelsTableViewCell.swift */; };
+		6E0AA3EE28ECEEED00659135 /* HotelsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E0AA3EC28ECEEED00659135 /* HotelsTableViewCell.xib */; };
+		6E0AA3F028ECEEF900659135 /* HotelsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0AA3EF28ECEEF900659135 /* HotelsViewModel.swift */; };
+		6E0AA3F228ECEF0200659135 /* HotelsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0AA3F128ECEF0200659135 /* HotelsModel.swift */; };
+		6E0AA3F428ECEF2700659135 /* HotelsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0AA3F328ECEF2700659135 /* HotelsEntity.swift */; };
 		6E1FC5B328EC56F500B52E56 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1FC5B228EC56F500B52E56 /* DetailsViewModel.swift */; };
 		6E1FC5B528EC56FF00B52E56 /* DetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1FC5B428EC56FF00B52E56 /* DetailsModel.swift */; };
 		6E3DD65D28E76219000BDDD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3DD65C28E76219000BDDD8 /* AppDelegate.swift */; };
@@ -30,6 +43,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E0AA3DB28ECB31100659135 /* FlightsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsViewModel.swift; sourceTree = "<group>"; };
+		6E0AA3DD28ECB31B00659135 /* FlightsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsModel.swift; sourceTree = "<group>"; };
+		6E0AA3DF28ECBA0900659135 /* DetailEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEntity.swift; sourceTree = "<group>"; };
+		6E0AA3E128ECE33F00659135 /* hotels.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = hotels.json; path = ../../hotels.json; sourceTree = "<group>"; };
+		6E0AA3E228ECE33F00659135 /* flights.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = flights.json; path = ../../flights.json; sourceTree = "<group>"; };
+		6E0AA3E528ECE38B00659135 /* FlightsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsEntity.swift; sourceTree = "<group>"; };
+		6E0AA3E728ECE60400659135 /* FlightsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsTableViewCell.swift; sourceTree = "<group>"; };
+		6E0AA3E828ECE60400659135 /* FlightsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlightsTableViewCell.xib; sourceTree = "<group>"; };
+		6E0AA3EB28ECEEED00659135 /* HotelsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsTableViewCell.swift; sourceTree = "<group>"; };
+		6E0AA3EC28ECEEED00659135 /* HotelsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HotelsTableViewCell.xib; sourceTree = "<group>"; };
+		6E0AA3EF28ECEEF900659135 /* HotelsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsViewModel.swift; sourceTree = "<group>"; };
+		6E0AA3F128ECEF0200659135 /* HotelsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsModel.swift; sourceTree = "<group>"; };
+		6E0AA3F328ECEF2700659135 /* HotelsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsEntity.swift; sourceTree = "<group>"; };
 		6E1FC5B228EC56F500B52E56 /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
 		6E1FC5B428EC56FF00B52E56 /* DetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsModel.swift; sourceTree = "<group>"; };
 		6E3DD65928E76219000BDDD8 /* TravelGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,20 +91,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6E1FC5B028EC56C200B52E56 /* Details */ = {
+		6E1FC5B028EC56C200B52E56 /* TopPickDetails */ = {
 			isa = PBXGroup;
 			children = (
+				6E1FC5B428EC56FF00B52E56 /* DetailsModel.swift */,
 				6E5ED73628E9C79B005C7E0B /* DetailsViewController.swift */,
 				6E1FC5B228EC56F500B52E56 /* DetailsViewModel.swift */,
-				6E1FC5B428EC56FF00B52E56 /* DetailsModel.swift */,
+				6E0AA3DF28ECBA0900659135 /* DetailEntity.swift */,
 			);
-			path = Details;
+			path = TopPickDetails;
 			sourceTree = "<group>";
 		};
 		6E1FC5B128EC56DB00B52E56 /* Hotels */ = {
 			isa = PBXGroup;
 			children = (
+				6EB7506828ED8D23003CCBB1 /* TableViewCell */,
+				6E0AA3F128ECEF0200659135 /* HotelsModel.swift */,
 				6E5ED73428E9C78E005C7E0B /* HotelsViewController.swift */,
+				6E0AA3EF28ECEEF900659135 /* HotelsViewModel.swift */,
+				6E0AA3F328ECEF2700659135 /* HotelsEntity.swift */,
 			);
 			path = Hotels;
 			sourceTree = "<group>";
@@ -103,15 +134,17 @@
 			isa = PBXGroup;
 			children = (
 				6E5ED72A28E9C6F7005C7E0B /* Resources */,
-				6E1FC5B128EC56DB00B52E56 /* Hotels */,
 				6E5ED73028E9C758005C7E0B /* Flights */,
-				6E1FC5B028EC56C200B52E56 /* Details */,
+				6E1FC5B128EC56DB00B52E56 /* Hotels */,
+				6E1FC5B028EC56C200B52E56 /* TopPickDetails */,
 				6E5ED72728E9C6BB005C7E0B /* Main */,
 				6E5ED72928E9C6D6005C7E0B /* Bookmarks */,
 				6E5ED72828E9C6D1005C7E0B /* Search */,
 				6E3DD66228E76219000BDDD8 /* Main.storyboard */,
 				6E3DD66528E7621B000BDDD8 /* Assets.xcassets */,
 				6E3DD66A28E7621B000BDDD8 /* Info.plist */,
+				6E0AA3E228ECE33F00659135 /* flights.json */,
+				6E0AA3E128ECE33F00659135 /* hotels.json */,
 				6E71F4D228EAF5B9000D730A /* topPickData.json */,
 			);
 			path = TravelGuide;
@@ -121,10 +154,10 @@
 			isa = PBXGroup;
 			children = (
 				6E71F4D428EAF5CD000D730A /* CollectionViewCell */,
-				6E5ED73828E9C8E5005C7E0B /* MainViewController.swift */,
-				6E71F4E128EAF96F000D730A /* MainEntity.swift */,
 				6E71F4DA28EAF85D000D730A /* MainModel.swift */,
+				6E5ED73828E9C8E5005C7E0B /* MainViewController.swift */,
 				6E71F4DC28EAF867000D730A /* MainViewModel.swift */,
+				6E71F4E128EAF96F000D730A /* MainEntity.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -158,7 +191,11 @@
 		6E5ED73028E9C758005C7E0B /* Flights */ = {
 			isa = PBXGroup;
 			children = (
+				6EB7506928ED8D30003CCBB1 /* TableViewCell */,
+				6E0AA3DD28ECB31B00659135 /* FlightsModel.swift */,
 				6E5ED73228E9C784005C7E0B /* FlightsViewController.swift */,
+				6E0AA3DB28ECB31100659135 /* FlightsViewModel.swift */,
+				6E0AA3E528ECE38B00659135 /* FlightsEntity.swift */,
 			);
 			path = Flights;
 			sourceTree = "<group>";
@@ -170,6 +207,24 @@
 				6E71F4D728EAF750000D730A /* TopPickCollectionViewCell.xib */,
 			);
 			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		6EB7506828ED8D23003CCBB1 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6E0AA3EC28ECEEED00659135 /* HotelsTableViewCell.xib */,
+				6E0AA3EB28ECEEED00659135 /* HotelsTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		6EB7506928ED8D30003CCBB1 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6E0AA3E828ECE60400659135 /* FlightsTableViewCell.xib */,
+				6E0AA3E728ECE60400659135 /* FlightsTableViewCell.swift */,
+			);
+			path = TableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,9 +291,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E0AA3E328ECE33F00659135 /* hotels.json in Resources */,
 				6E3DD66928E7621B000BDDD8 /* LaunchScreen.storyboard in Resources */,
 				6E71F4D928EAF750000D730A /* TopPickCollectionViewCell.xib in Resources */,
 				6E3DD66628E7621B000BDDD8 /* Assets.xcassets in Resources */,
+				6E0AA3EE28ECEEED00659135 /* HotelsTableViewCell.xib in Resources */,
+				6E0AA3E428ECE33F00659135 /* flights.json in Resources */,
+				6E0AA3EA28ECE60400659135 /* FlightsTableViewCell.xib in Resources */,
 				6E71F4D328EAF5B9000D730A /* topPickData.json in Resources */,
 				6E3DD66428E76219000BDDD8 /* Main.storyboard in Resources */,
 			);
@@ -252,19 +311,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E5ED73328E9C784005C7E0B /* FlightsViewController.swift in Sources */,
+				6E0AA3F428ECEF2700659135 /* HotelsEntity.swift in Sources */,
 				6E5ED72F28E9C743005C7E0B /* SearchViewController.swift in Sources */,
 				6E5ED72C28E9C731005C7E0B /* BookmarksViewController.swift in Sources */,
+				6E0AA3DC28ECB31100659135 /* FlightsViewModel.swift in Sources */,
 				6E71F4D828EAF750000D730A /* TopPickCollectionViewCell.swift in Sources */,
 				6E1FC5B528EC56FF00B52E56 /* DetailsModel.swift in Sources */,
 				6E1FC5B328EC56F500B52E56 /* DetailsViewModel.swift in Sources */,
 				6E5ED73728E9C79B005C7E0B /* DetailsViewController.swift in Sources */,
 				6E71F4E228EAF96F000D730A /* MainEntity.swift in Sources */,
 				6E5ED73528E9C78E005C7E0B /* HotelsViewController.swift in Sources */,
+				6E0AA3ED28ECEEED00659135 /* HotelsTableViewCell.swift in Sources */,
 				6E3DD65D28E76219000BDDD8 /* AppDelegate.swift in Sources */,
 				6E3DD65F28E76219000BDDD8 /* SceneDelegate.swift in Sources */,
+				6E0AA3E928ECE60400659135 /* FlightsTableViewCell.swift in Sources */,
+				6E0AA3F228ECEF0200659135 /* HotelsModel.swift in Sources */,
 				6E71F4DB28EAF85D000D730A /* MainModel.swift in Sources */,
+				6E0AA3F028ECEEF900659135 /* HotelsViewModel.swift in Sources */,
 				6E5ED73928E9C8E5005C7E0B /* MainViewController.swift in Sources */,
+				6E0AA3E628ECE38B00659135 /* FlightsEntity.swift in Sources */,
+				6E0AA3E028ECBA0900659135 /* DetailEntity.swift in Sources */,
 				6E71F4DD28EAF867000D730A /* MainViewModel.swift in Sources */,
+				6E0AA3DE28ECB31B00659135 /* FlightsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
