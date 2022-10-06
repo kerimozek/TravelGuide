@@ -74,21 +74,6 @@ extension MainViewController: UICollectionViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
-//        var detailsVC: UIViewController?
-//        let detailsType = "otel"
-//        if detailsType == "otel" {
-//
-//            detailsVC = storyboard?.instantiateViewController(withIdentifier: "DetailsViewController") as! DetailsViewController
-//
-//        } else if detailsType == "flight"
-//
-//        {
-//            detailsVC = storyboard?.instantiateViewController(withIdentifier: "FlightsViewController") as! DetailsViewController
-//
-//        } else {
-//            detailsVC = storyboard?.instantiateViewController(withIdentifier: "HotelsViewController") as! DetailsViewController
-//        }
-    
         let detailsVC = storyboard?.instantiateViewController(withIdentifier: "DetailsViewController") as! DetailsViewController
         detailsVC.model.topPickData = viewModel.topPickItem(at: indexPath.row)
         navigationController?.pushViewController(detailsVC, animated: true)

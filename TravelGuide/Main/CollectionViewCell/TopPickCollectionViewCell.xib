@@ -17,17 +17,21 @@
                 <rect key="frame" x="0.0" y="0.0" width="273" height="241"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BL8-ya-Hy4">
+                    <view alpha="0.10000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hrk-Di-Bj5">
                         <rect key="frame" x="0.0" y="0.0" width="273" height="241"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BL8-ya-Hy4">
+                        <rect key="frame" x="0.0" y="0.0" width="273" height="229"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KtL-LQ-h0s">
-                                <rect key="frame" x="0.0" y="0.0" width="273" height="140"/>
+                                <rect key="frame" x="0.0" y="0.0" width="273" height="130"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="140" id="o2F-Rn-30o"/>
+                                    <constraint firstAttribute="height" constant="130" id="o2F-Rn-30o"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oAz-Mc-df5">
-                                <rect key="frame" x="8" y="146" width="33" height="20"/>
+                                <rect key="frame" x="8" y="134" width="33" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="3sD-XB-Kla"/>
                                 </constraints>
@@ -36,7 +40,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SNW-Vl-KiD">
-                                <rect key="frame" x="8" y="166" width="257" height="21.5"/>
+                                <rect key="frame" x="8" y="154" width="257" height="21.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -50,7 +54,7 @@
                             <constraint firstAttribute="trailing" secondItem="SNW-Vl-KiD" secondAttribute="trailing" constant="8" id="Prx-GA-4n3"/>
                             <constraint firstItem="SNW-Vl-KiD" firstAttribute="top" secondItem="oAz-Mc-df5" secondAttribute="bottom" id="YHH-iz-uNV"/>
                             <constraint firstItem="SNW-Vl-KiD" firstAttribute="leading" secondItem="BL8-ya-Hy4" secondAttribute="leading" constant="8" id="e2X-GH-aFa"/>
-                            <constraint firstItem="oAz-Mc-df5" firstAttribute="top" secondItem="KtL-LQ-h0s" secondAttribute="bottom" constant="6" id="s3C-sv-u8m"/>
+                            <constraint firstItem="oAz-Mc-df5" firstAttribute="top" secondItem="KtL-LQ-h0s" secondAttribute="bottom" constant="4" id="s3C-sv-u8m"/>
                             <constraint firstItem="oAz-Mc-df5" firstAttribute="leading" secondItem="BL8-ya-Hy4" secondAttribute="leading" constant="8" id="zgH-gN-mXB"/>
                         </constraints>
                     </view>
@@ -58,16 +62,22 @@
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
+                <constraint firstItem="hrk-Di-Bj5" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="0BA-Ff-1Yt"/>
+                <constraint firstAttribute="bottom" secondItem="hrk-Di-Bj5" secondAttribute="bottom" id="0k8-Eg-RVr"/>
                 <constraint firstItem="BL8-ya-Hy4" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="1Fa-GQ-uKs"/>
+                <constraint firstItem="hrk-Di-Bj5" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="bFo-AD-egq"/>
                 <constraint firstAttribute="trailing" secondItem="BL8-ya-Hy4" secondAttribute="trailing" id="biU-1y-ViP"/>
+                <constraint firstAttribute="trailing" secondItem="hrk-Di-Bj5" secondAttribute="trailing" id="dfN-YD-bm0"/>
                 <constraint firstItem="BL8-ya-Hy4" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="iAV-PX-Rck"/>
-                <constraint firstAttribute="bottom" secondItem="BL8-ya-Hy4" secondAttribute="bottom" id="s8H-Pz-I7X"/>
+                <constraint firstAttribute="bottom" secondItem="BL8-ya-Hy4" secondAttribute="bottom" constant="12" id="s8H-Pz-I7X"/>
             </constraints>
             <size key="customSize" width="273" height="241"/>
             <connections>
                 <outlet property="categoryLabelCell" destination="oAz-Mc-df5" id="s9Q-T2-EPN"/>
                 <outlet property="imageViewCell" destination="KtL-LQ-h0s" id="EsB-pl-9yC"/>
+                <outlet property="shadowView" destination="hrk-Di-Bj5" id="vsC-Dk-KBL"/>
                 <outlet property="titleLabelCell" destination="SNW-Vl-KiD" id="h5i-Xa-7cD"/>
+                <outlet property="topPickView" destination="BL8-ya-Hy4" id="yVw-wb-lxi"/>
             </connections>
             <point key="canvasLocation" x="290.57971014492756" y="148.32589285714286"/>
         </collectionViewCell>
@@ -75,6 +85,9 @@
     <resources>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

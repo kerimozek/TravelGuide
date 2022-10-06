@@ -10,7 +10,7 @@ import Foundation
 
 struct topPick: Codable {
     
-    var id: Int
+    var id: String
     var category: String
     var images: String
     var description: String
