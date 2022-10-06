@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import CoreData
 
 
 class DetailsModel {
@@ -13,5 +14,6 @@ class DetailsModel {
     var topPickData: topPick?
 
 
+    
     
 }
