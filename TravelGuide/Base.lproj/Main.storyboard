@@ -22,7 +22,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="gvB-et-0n6">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="gvB-et-0n6">
                                 <rect key="frame" x="16" y="116.5" width="382" height="696.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
@@ -40,6 +40,9 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="bookmark" selectedImage="bookmark-selected" id="CAT-ME-x9x"/>
                     <navigationItem key="navigationItem" id="OGJ-u2-1iN"/>
+                    <connections>
+                        <outlet property="tableView" destination="gvB-et-0n6" id="GZg-sV-cFZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fto-Xq-IgX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -98,6 +101,9 @@
                                         <rect key="frame" x="12" y="0.0" width="329" height="48"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="searchField:" destination="7m2-lg-lR6" eventType="editingChanged" id="bWl-g7-Ov1"/>
+                                        </connections>
                                     </textField>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="search-red" translatesAutoresizingMaskIntoConstraints="NO" id="MVQ-RV-OiP">
                                         <rect key="frame" x="342" y="9" width="34" height="25"/>
@@ -118,17 +124,29 @@
                                     <constraint firstItem="Rxv-Ke-Y1C" firstAttribute="top" secondItem="m4w-hp-Kgt" secondAttribute="top" id="z36-8C-0OS"/>
                                 </constraints>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Nac-Z7-pBO">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="sMn-nE-RnB">
+                                <rect key="frame" x="16" y="426" width="382" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Nac-Z7-pBO">
                                 <rect key="frame" x="16" y="238.5" width="382" height="574.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nodata" translatesAutoresizingMaskIntoConstraints="NO" id="3E6-gP-nDa">
+                                <rect key="frame" x="50" y="244" width="314" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="R9g-Rs-cg7"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="TDX-mT-8fH"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Nac-Z7-pBO" firstAttribute="top" secondItem="m4w-hp-Kgt" secondAttribute="bottom" constant="16" id="AG5-gO-Kem"/>
+                            <constraint firstItem="3E6-gP-nDa" firstAttribute="leading" secondItem="TDX-mT-8fH" secondAttribute="leading" constant="50" id="F3q-Ci-Uoa"/>
                             <constraint firstItem="iqh-H9-8CP" firstAttribute="top" secondItem="TDX-mT-8fH" secondAttribute="top" constant="20" id="QQl-yO-92D"/>
                             <constraint firstItem="m4w-hp-Kgt" firstAttribute="top" secondItem="Lkj-K8-Ufe" secondAttribute="bottom" constant="16" id="R2L-N4-dGm"/>
+                            <constraint firstItem="3E6-gP-nDa" firstAttribute="top" secondItem="TDX-mT-8fH" secondAttribute="top" constant="200" id="Swg-Pj-Ntk"/>
                             <constraint firstItem="iqh-H9-8CP" firstAttribute="leading" secondItem="TDX-mT-8fH" secondAttribute="leading" constant="20" id="bhX-Iq-Kil"/>
                             <constraint firstItem="TDX-mT-8fH" firstAttribute="trailing" secondItem="m4w-hp-Kgt" secondAttribute="trailing" constant="20" id="cUy-Vy-CIk"/>
                             <constraint firstItem="Lkj-K8-Ufe" firstAttribute="leading" secondItem="TDX-mT-8fH" secondAttribute="leading" constant="8" id="dHr-wj-jxK"/>
@@ -137,6 +155,7 @@
                             <constraint firstItem="m4w-hp-Kgt" firstAttribute="leading" secondItem="TDX-mT-8fH" secondAttribute="leading" constant="12" id="j4r-bJ-dw8"/>
                             <constraint firstItem="TDX-mT-8fH" firstAttribute="trailing" secondItem="Nac-Z7-pBO" secondAttribute="trailing" constant="16" id="mcU-7k-0bh"/>
                             <constraint firstItem="Lkj-K8-Ufe" firstAttribute="top" secondItem="iqh-H9-8CP" secondAttribute="bottom" constant="8" id="o9g-Ri-UDi"/>
+                            <constraint firstAttribute="trailing" secondItem="3E6-gP-nDa" secondAttribute="trailing" constant="50" id="ovc-hr-osX"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="search" selectedImage="search-selected" id="HHD-XR-2pG"/>
@@ -144,7 +163,10 @@
                     <connections>
                         <outlet property="flightsButtonClicked" destination="pgV-MV-Fhb" id="hDA-kt-deI"/>
                         <outlet property="hotelsButtonClicked" destination="V3m-eD-rtM" id="tu0-4c-2TP"/>
+                        <outlet property="noData" destination="3E6-gP-nDa" id="L64-q8-xBn"/>
+                        <outlet property="searchField" destination="Rxv-Ke-Y1C" id="nz8-cg-UQY"/>
                         <outlet property="searchView" destination="m4w-hp-Kgt" id="uGi-om-Ykv"/>
+                        <outlet property="tableView" destination="Nac-Z7-pBO" id="M5Y-gD-kx5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oJW-9b-xJm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -193,7 +215,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="fwa-n7-8Us">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="fwa-n7-8Us">
                                 <rect key="frame" x="16" y="117" width="382" height="745"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
@@ -306,7 +328,7 @@
                                 <color key="textColor" systemColor="systemBlueColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OJs-g8-A3u">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OJs-g8-A3u">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="310.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" secondItem="OJs-g8-A3u" secondAttribute="height" multiplier="1:1" id="Lyf-Nn-lJW"/>
@@ -460,11 +482,11 @@
                                 <cells/>
                             </collectionView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOP-PICK ARTICLES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xlz-hI-ACh">
-                                <rect key="frame" x="12" y="539" width="174.5" height="30"/>
+                                <rect key="frame" x="12" y="539" width="183" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="GfD-fP-dHO"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -525,6 +547,7 @@
         <image name="main" width="24" height="25"/>
         <image name="main-selected" width="68" height="48"/>
         <image name="mainbg" width="390" height="455"/>
+        <image name="nodata" width="304" height="90"/>
         <image name="search" width="27.5" height="27.5"/>
         <image name="search-red" width="20.5" height="20.5"/>
         <image name="search-selected" width="68" height="48"/>
