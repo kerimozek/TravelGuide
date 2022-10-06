@@ -35,14 +35,22 @@ class FlightsViewController: UIViewController {
     }
     
 }
-//
-//
-//// MARK: - EXTENSIONS -
-//
+
+// MARK: - EXTENSIONS -
+
 extension FlightsViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("clicked")
+        let detailsVC = storyboard?.instantiateViewController(withIdentifier: "DetailsViewController") as! DetailsViewController
+        let url = "https://icdn.ensonhaber.com/resimler/galeri/1_11617.jpg"
+        let flightNewItems = viewModel.flightsItem(at: indexPath.row)
+        
+        detailsVC.model.topPickData = .init(id: flightNewItems.flight.number,
+                                            category: flightNewItems.arrival.airport.rawValue,
+                                            images: url,
+                                            description: flightNewItems.airline.name.rawValue,
+                                            title: flightNewItems.flight.number)
+        navigationController?.pushViewController(detailsVC, animated: true)
     }
     
 }

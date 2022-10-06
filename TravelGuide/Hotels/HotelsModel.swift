@@ -20,6 +20,7 @@ class HotelsModel {
         do {
             let data = try Data(contentsOf: url)
             let result = try JSONDecoder().decode(ListHotel.self, from: data)
+            hotelsPost?.removeAll()
             hotelsPost = result.ListHotels
         }
         catch {

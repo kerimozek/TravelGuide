@@ -18,6 +18,7 @@ class FlightsModel {
         do {
             let data = try Data(contentsOf: url)
             let result = try? JSONDecoder().decode(Flights.self, from: data)
+            flightsPost?.removeAll()
             flightsPost = result
         }
         catch {

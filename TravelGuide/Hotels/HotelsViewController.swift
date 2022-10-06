@@ -44,11 +44,22 @@ class HotelsViewController: UIViewController {
 
 extension HotelsViewController: UITableViewDelegate {
     
-//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        let detailsVC = storyboard?.instantiateViewController(withIdentifier: "DetailsViewController") as! DetailsViewController
-//        detailsVC.model.topPickData = viewModel.hotelsItem(at: indexPath.row)
-//        navigationController?.pushViewController(detailsVC, animated: true)
-//    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let detailsVC = storyboard?.instantiateViewController(withIdentifier: "DetailsViewController") as! DetailsViewController
+    
+        let hotelNewItems = viewModel.hotelsItem(at: indexPath.row)
+        
+        detailsVC.model.topPickData = .init(id: hotelNewItems.id,
+                                            category: hotelNewItems.id,
+                                            images: hotelNewItems.image,
+                                            description: hotelNewItems.description,
+                                            title: hotelNewItems.name)
+        
+        navigationController?.pushViewController(detailsVC, animated: true)
+    }
+    
+    
     
 }
 
