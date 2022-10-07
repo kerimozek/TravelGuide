@@ -8,16 +8,25 @@
 import Foundation
 
 
-struct topPick: Codable {
+struct topPick: Decodable {
     
     var id: String
     var category: String
     var images: String
-    var description: String
+    var detail: String
     var title: String
+    
+    init(id: String, category: String, images: String, detail: String, title: String) {
+        self.id = id
+        self.category = category
+        self.images = images
+        self.detail = detail
+        self.title = title
+    }
+    
 }
 
-struct sampleTopPick: Codable {
+struct sampleTopPick: Decodable {
     
     var topPickList: [topPick]
 }
