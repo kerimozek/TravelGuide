@@ -20,6 +20,7 @@ class DetailsViewController: UIViewController {
     @IBOutlet weak var categoryLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
     var model = DetailsModel()
+    var viewModel = DetailsViewModel()
     
     
     override func viewDidLoad() {
@@ -36,6 +37,12 @@ class DetailsViewController: UIViewController {
     
     
     @IBAction func addBookmarksClicked(_ sender: Any) {
+         
+        viewModel.didSaveClicked(topPickData: .init(id: model.topPickData!.id,
+                                       category: model.topPickData!.category,
+                                       images: model.topPickData!.images,
+                                       detail: model.topPickData!.detail,
+                                       title: model.topPickData!.title))
         
     }
     
@@ -45,10 +52,12 @@ class DetailsViewController: UIViewController {
         imageView.layer.cornerRadius = 30
         imageView.layer.maskedCorners = [.layerMaxXMaxYCorner, .layerMinXMaxYCorner]
         titleLabel.text = model.topPickData?.title
-        detailLabel.text = model.topPickData?.description
+        detailLabel.text = model.topPickData?.detail
         categoryLabel.text = model.topPickData?.category
         if let url = model.topPickData?.images {
             imageView.kf.setImage(with: URL(string: url))
+            
+            
         }
     }
 

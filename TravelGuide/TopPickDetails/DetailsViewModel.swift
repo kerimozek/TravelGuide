@@ -10,10 +10,13 @@ import Foundation
 
 class DetailsViewModel {
     
-    var model: DetailsModel!
-    var view: DetailsViewProtocol!
+    var model = DetailsModel()
 
  
+    
+    func didSaveClicked(topPickData: topPick) {
+        model.saveCoreData(topPickData: topPickData)
+    }
     
 }
 

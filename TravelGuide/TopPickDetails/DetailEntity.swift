@@ -12,8 +12,7 @@ struct DetailData {
     var id: Int
     var category: String
     var images: String
-    var description: String
+    var detail: String
     var title: String
-    
-    
+ 
 }
