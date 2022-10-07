@@ -53,13 +53,15 @@ extension HotelsViewController: UITableViewDelegate {
         detailsVC.model.topPickData = .init(id: hotelNewItems.id,
                                             category: hotelNewItems.id,
                                             images: hotelNewItems.image,
-                                            description: hotelNewItems.description,
+                                            detail: hotelNewItems.detail,
                                             title: hotelNewItems.name)
         
         navigationController?.pushViewController(detailsVC, animated: true)
     }
     
-    
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        cell.backgroundColor = UIColor.clear
+    }
     
 }
 
@@ -75,7 +77,7 @@ extension HotelsViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "HotelsTableViewCell", for: indexPath) as! HotelsTableViewCell
         
         cell.titleLabel.text = viewModel.hotelsItem(at: indexPath.row).name
-        cell.detailLabel.text = viewModel.hotelsItem(at: indexPath.row).description
+        cell.detailLabel.text = viewModel.hotelsItem(at: indexPath.row).detail
         cell.hotelsImage.kf.setImage(with: URL(string: viewModel.hotelsItem(at: indexPath.row).image))
         return cell
     }

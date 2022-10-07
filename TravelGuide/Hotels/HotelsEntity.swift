@@ -11,7 +11,7 @@ struct Hotels: Codable {
     
     var id: String
     var name: String
-    var description: String
+    var detail: String
     var image: String
 }
 
