@@ -19,14 +19,15 @@ class FlightsViewController: UIViewController {
 
        setupUI()
     }
-    
+
     
     func setupUI() {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(.init(nibName: "FlightsTableViewCell", bundle: nil), forCellReuseIdentifier: "FlightsTableViewCell")
         viewModel.getMainData()
-        tableView.reloadData()
+        viewModel.viewDelegate = self
+  //      tableView.reloadData()
     }
     
 
@@ -48,9 +49,13 @@ extension FlightsViewController: UITableViewDelegate {
         detailsVC.model.topPickData = .init(id: flightNewItems.flight.number,
                                             category: flightNewItems.arrival.airport.rawValue,
                                             images: url,
-                                            description: flightNewItems.airline.name.rawValue,
+                                            detail: flightNewItems.airline.name.rawValue,
                                             title: flightNewItems.flight.number)
         navigationController?.pushViewController(detailsVC, animated: true)
+    }
+    
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        cell.backgroundColor = UIColor.clear
     }
     
 }
@@ -59,7 +64,7 @@ extension FlightsViewController: UITableViewDataSource {
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        viewModel.modelResponse.count
+        viewModel.modelResponse!.count
     }
     
  
@@ -67,6 +72,7 @@ extension FlightsViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "FlightsTableViewCell", for: indexPath) as! FlightsTableViewCell
         
         cell.titleLabel.text = viewModel.flightsItem(at: indexPath.row).flight.number
+        print(viewModel.flightsItem(at: indexPath.row))
         cell.detailLabel.text = viewModel.flightsItem(at: indexPath.row).arrival.airport.rawValue
         cell.flightsImage.kf.setImage(with: URL(string: "https://icdn.ensonhaber.com/resimler/galeri/1_11617.jpg"))
         return cell
@@ -76,3 +82,17 @@ extension FlightsViewController: UITableViewDataSource {
 }
 
 
+// Delegate Protocol
+extension FlightsViewController: FlightsViewModelViewProtocol {
+    func didCellItemFetch(isSuccess: Bool) {
+        if isSuccess == true {
+            print("hojam")
+            DispatchQueue.main.async  {  // [weak self] in
+         //       guard let self = self else {return}
+                self.tableView.reloadData()
+            }
+        } else {
+            print("error")
+        }
+    }
+}

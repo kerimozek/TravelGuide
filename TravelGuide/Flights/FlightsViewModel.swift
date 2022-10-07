@@ -7,25 +7,53 @@
 
 import Foundation
 
+protocol FlightsViewModelViewProtocol: AnyObject {
+    func didCellItemFetch(isSuccess: Bool)
+}
+
 class FlightsViewModel {
     
     var model = FlightsModel()
-    var modelResponse : Flights = []
-  
+    var modelResponse : Flights? = []
+    weak var viewDelegate: FlightsViewModelViewProtocol?
     
-    
-    var numberOfItems : Int {
-        self.modelResponse.count
+    init() {
+        model.delegate = self
     }
     
-    func flightsItem(at index: Int) -> FlightElement {
-        return self.modelResponse[index]
+    var numberOfItems : Int {
+        print(modelResponse!.count)
+        return self.modelResponse!.count
+        
+    }
+    
+    func flightsItem(at index: Int) -> Flight {
+        return self.modelResponse![index]
     }
     
     func getMainData() {
-        model.getData()
-        self.modelResponse = model.flightsPost!
+        
+        // MARK: - IF YOU WANT TO USE API PLEASE CHANGE FUNC
+        //  model.getDataAPI()
+         model.getData()
     }
     
     
 }
+
+// MARK: - PostListModelProtocol
+
+extension FlightsViewModel: FlightsModelProtocol {
+    
+    func didDataFetchProcessFinish(isSuccess: Bool) {
+        if isSuccess {
+            self.modelResponse = model.flightsPost!
+            viewDelegate?.didCellItemFetch(isSuccess: true)
+        } else {
+            viewDelegate?.didCellItemFetch(isSuccess: false)
+        }
+    }
+}
+
+
+
