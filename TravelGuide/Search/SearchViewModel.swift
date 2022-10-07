@@ -22,7 +22,7 @@ class SearchViewModel {
         self.modelFlightsResponse.count
     }
     
-
+    
     func hotelsItem(at index: Int) -> Hotels {
         return self.modelHotelsResponse[index]
     }
@@ -33,7 +33,7 @@ class SearchViewModel {
     }
     
     
-    func flightsItem(at index: Int) -> FlightElement {
+    func flightsItem(at index: Int) -> Flight {
         return self.modelFlightsResponse[index]
     }
     

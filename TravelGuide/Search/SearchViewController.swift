@@ -8,7 +8,7 @@
 import UIKit
 
 class SearchViewController: UIViewController {
-
+    
     @IBOutlet weak var noData: UIImageView!
     @IBOutlet weak var searchField: UITextField!
     @IBOutlet weak var tableView: UITableView!
@@ -30,7 +30,7 @@ class SearchViewController: UIViewController {
         setupUI()
         
     }
-
+    
     private func setupUI() {
         searchView.layer.borderWidth = 1.8
         searchView.layer.borderColor = UIColor.gray.cgColor
@@ -42,12 +42,7 @@ class SearchViewController: UIViewController {
         viewModel.getHotelData()
         noData.isHidden = true
         tableView.reloadData()
-        let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
-            view.addGestureRecognizer(tap)
-    }
-    
-    @objc func dismissKeyboard() {
-        view.endEditing(true)
+        
     }
     
     
@@ -59,7 +54,7 @@ class SearchViewController: UIViewController {
             if let searchText = sender.text {
                 self.noData.isHidden = true
                 if searchText.count > 2 {
-                   
+                    
                     DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                         self.tableView.isHidden = false
                         self.noData.isHidden = true
@@ -99,7 +94,7 @@ class SearchViewController: UIViewController {
             }
         }
     }
-  
+    
     @IBAction func hotelsButtonClicked(_ sender: Any) {
         setupHotelButton()
         buttonActive = "hotel"
@@ -123,13 +118,13 @@ class SearchViewController: UIViewController {
     
     
     private func setupFlightButton() {
-       let flight = UIImage(named: "flights-selected")! as UIImage
-       let hotel2 = UIImage(named: "hotels-unselected")! as UIImage
-       flightsButtonClicked.setImage(flight, for: .normal)
-       hotelsButtonClicked.setImage(hotel2, for: .normal)
+        let flight = UIImage(named: "flights-selected")! as UIImage
+        let hotel2 = UIImage(named: "hotels-unselected")! as UIImage
+        flightsButtonClicked.setImage(flight, for: .normal)
+        hotelsButtonClicked.setImage(hotel2, for: .normal)
     }
     
-
+    
 }
 
 
@@ -149,7 +144,7 @@ extension SearchViewController: UITableViewDelegate {
             detailsVC.model.topPickData = .init(id: flightNewItems.flight.number,
                                                 category: flightNewItems.arrival.airport.rawValue,
                                                 images: url,
-                                                description: flightNewItems.airline.name.rawValue,
+                                                detail: flightNewItems.airline.name.rawValue,
                                                 title: flightNewItems.flight.number)
         }
         
@@ -159,11 +154,15 @@ extension SearchViewController: UITableViewDelegate {
             detailsVC.model.topPickData = .init(id: hotelNewItems.id,
                                                 category: hotelNewItems.id,
                                                 images: hotelNewItems.image,
-                                                description: hotelNewItems.description,
+                                                detail: hotelNewItems.detail,
                                                 title: hotelNewItems.name)
         }
         
         navigationController?.pushViewController(detailsVC, animated: true)
+    }
+    
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        cell.backgroundColor = UIColor.clear
     }
 }
 
@@ -180,10 +179,10 @@ extension SearchViewController: UITableViewDataSource {
         } else {
             return resultSearchHotel.count
         }
- 
+        
     }
     
- 
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "SearchTableViewCell", for: indexPath) as! SearchTableViewCell
         
@@ -200,7 +199,7 @@ extension SearchViewController: UITableViewDataSource {
             let item = resultSearchHotel[indexPath.row]
             
             cell.titleLabel.text = item.name
-            cell.detailLabel.text = item.description
+            cell.detailLabel.text = item.detail
             cell.searchImage.kf.setImage(with: URL(string: item.image))
         }
         
@@ -209,3 +208,7 @@ extension SearchViewController: UITableViewDataSource {
     
     
 }
+
+
+
+

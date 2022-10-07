@@ -13,8 +13,9 @@ class SearchModel {
     var hotelsPost: [Hotels]? = []
     var flightsPost: Flights? = []
     
-
+    
     func getHotelsData() {
+        
         let path = Bundle.main.path(forResource: "hotels", ofType: "json")
         let url = URL(fileURLWithPath: path!)
         
@@ -28,8 +29,8 @@ class SearchModel {
             print(error.localizedDescription)
         }
     }
-   
-
+    
+    
     func getFlightsData() {
         let path = Bundle.main.path(forResource: "flights", ofType: "json")
         let url = URL(fileURLWithPath: path!)
@@ -44,6 +45,5 @@ class SearchModel {
             print(error.localizedDescription)
         }
     }
-    
     
 }
