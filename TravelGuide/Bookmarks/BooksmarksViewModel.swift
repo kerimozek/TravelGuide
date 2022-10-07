@@ -6,3 +6,21 @@
 //
 
 import Foundation
+
+
+
+class BookmarksViewModel {
+    
+    var model = BookmarksModel()
+
+
+    
+    func didViewLoad() {
+        model.getData()
+    }
+    
+    
+    
+}
+
+
