@@ -23,18 +23,17 @@ class BookmarksViewController: UIViewController {
        
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        viewModel.didViewLoad()
+        tableView.reloadData()
+    }
 
     private func setupUI() {
         
         tableView.delegate = self
         tableView.dataSource = self
-        tableView.register(.init(nibName: "BookmarksTableViewCell", bundle: nil), forCellReuseIdentifier: "BookmarksTableViewCell")
-        
-        viewModel.didViewLoad()
-        tableView.reloadData()
-        
+        tableView.register(.init(nibName: "BookmarksTableViewCell", bundle: nil), forCellReuseIdentifier: "BookmarksTableViewCell")   
     }
-
 }
 
 
@@ -45,7 +44,18 @@ extension BookmarksViewController: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        print("clicked")
+        let detailsVC = storyboard?.instantiateViewController(withIdentifier: "DetailsViewController") as! DetailsViewController
+        
+        
+        let searchItem = viewModel.model.posts[indexPath.row]
+        
+        detailsVC.model.topPickData = .init(id: "\(searchItem.uuid!)",
+                                            category: searchItem.category!,
+                                            images: searchItem.image!,
+                                            detail: searchItem.detail!,
+                                            title: searchItem.title!)
+        
+        navigationController?.pushViewController(detailsVC, animated: true)
     }
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {

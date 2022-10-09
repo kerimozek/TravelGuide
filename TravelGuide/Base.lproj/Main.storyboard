@@ -369,6 +369,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="addButton" destination="Vzf-54-MD0" id="Wxo-Kc-o5a"/>
                         <outlet property="categoryLabel" destination="Oke-BW-Feg" id="m4l-hV-mcd"/>
                         <outlet property="detailLabel" destination="Vbc-Yz-XbA" id="ldJ-0S-piP"/>
                         <outlet property="imageView" destination="OJs-g8-A3u" id="Bvy-3P-bge"/>

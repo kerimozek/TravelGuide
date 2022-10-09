@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		6E0AA3DC28ECB31100659135 /* FlightsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0AA3DB28ECB31100659135 /* FlightsViewModel.swift */; };
 		6E0AA3DE28ECB31B00659135 /* FlightsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0AA3DD28ECB31B00659135 /* FlightsModel.swift */; };
-		6E0AA3E028ECBA0900659135 /* DetailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0AA3DF28ECBA0900659135 /* DetailEntity.swift */; };
 		6E0AA3E328ECE33F00659135 /* hotels.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E0AA3E128ECE33F00659135 /* hotels.json */; };
 		6E0AA3E428ECE33F00659135 /* flights.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E0AA3E228ECE33F00659135 /* flights.json */; };
 		6E0AA3E628ECE38B00659135 /* FlightsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0AA3E528ECE38B00659135 /* FlightsEntity.swift */; };
@@ -56,7 +55,6 @@
 /* Begin PBXFileReference section */
 		6E0AA3DB28ECB31100659135 /* FlightsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsViewModel.swift; sourceTree = "<group>"; };
 		6E0AA3DD28ECB31B00659135 /* FlightsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsModel.swift; sourceTree = "<group>"; };
-		6E0AA3DF28ECBA0900659135 /* DetailEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEntity.swift; sourceTree = "<group>"; };
 		6E0AA3E128ECE33F00659135 /* hotels.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = hotels.json; path = ../../hotels.json; sourceTree = "<group>"; };
 		6E0AA3E228ECE33F00659135 /* flights.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = flights.json; path = ../../flights.json; sourceTree = "<group>"; };
 		6E0AA3E528ECE38B00659135 /* FlightsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsEntity.swift; sourceTree = "<group>"; };
@@ -119,7 +117,6 @@
 				6E1FC5B428EC56FF00B52E56 /* DetailsModel.swift */,
 				6E5ED73628E9C79B005C7E0B /* DetailsViewController.swift */,
 				6E1FC5B228EC56F500B52E56 /* DetailsViewModel.swift */,
-				6E0AA3DF28ECBA0900659135 /* DetailEntity.swift */,
 			);
 			path = TopPickDetails;
 			sourceTree = "<group>";
@@ -396,7 +393,6 @@
 				6E5ED73928E9C8E5005C7E0B /* MainViewController.swift in Sources */,
 				6E0AA3E628ECE38B00659135 /* FlightsEntity.swift in Sources */,
 				6EB7507A28EEF661003CCBB1 /* BookmarksModel.swift in Sources */,
-				6E0AA3E028ECBA0900659135 /* DetailEntity.swift in Sources */,
 				6EB7508028EEF688003CCBB1 /* BookmarksTableViewCell.swift in Sources */,
 				6EB7506D28ED8EBC003CCBB1 /* SearchTableViewCell.swift in Sources */,
 				6E71F4DD28EAF867000D730A /* MainViewModel.swift in Sources */,

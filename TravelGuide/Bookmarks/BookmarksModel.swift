@@ -9,8 +9,6 @@ import Foundation
 import CoreData
 
 
-
-
 class BookmarksModel {
     
    
@@ -32,7 +30,6 @@ class BookmarksModel {
             print(error.localizedDescription)
         }
     }
-    
 }
 
 
