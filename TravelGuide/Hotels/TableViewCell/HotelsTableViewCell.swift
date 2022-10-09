@@ -18,6 +18,7 @@ class HotelsTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
       
+        selectionStyle = .none
         hotelView.layer.cornerRadius = 10
         hotelsImage.layer.cornerRadius = 10
         

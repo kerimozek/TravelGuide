@@ -10,11 +10,8 @@ import Foundation
 
 class HotelsViewModel {
     
-    
     var model = HotelsModel()
     var modelResponse : [Hotels] = []
-  
-    
     
     var numberOfItems : Int {
         self.modelResponse.count
@@ -28,6 +25,5 @@ class HotelsViewModel {
         model.getData()
         self.modelResponse = model.hotelsPost!
     }
-    
     
 }

@@ -16,7 +16,7 @@ class HotelsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+       
        setupUI()
     }
     
@@ -62,6 +62,7 @@ extension HotelsViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         cell.backgroundColor = UIColor.clear
     }
+    
     
 }
 

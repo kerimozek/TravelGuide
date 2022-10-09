@@ -21,13 +21,12 @@ class FlightsViewController: UIViewController {
     }
 
     
-    func setupUI() {
+    private func setupUI() {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(.init(nibName: "FlightsTableViewCell", bundle: nil), forCellReuseIdentifier: "FlightsTableViewCell")
         viewModel.getMainData()
         viewModel.viewDelegate = self
-  //      tableView.reloadData()
     }
     
 
@@ -81,14 +80,12 @@ extension FlightsViewController: UITableViewDataSource {
     
 }
 
-
 // Delegate Protocol
 extension FlightsViewController: FlightsViewModelViewProtocol {
     func didCellItemFetch(isSuccess: Bool) {
         if isSuccess == true {
-            print("hojam")
-            DispatchQueue.main.async  {  // [weak self] in
-         //       guard let self = self else {return}
+            DispatchQueue.main.async  { [weak self] in
+                guard let self = self else {return}
                 self.tableView.reloadData()
             }
         } else {

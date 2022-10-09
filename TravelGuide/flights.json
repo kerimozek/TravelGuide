@@ -1,0 +1,2471 @@
+[{
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": null,
+        "time": "10:30:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "11:50:00"
+    },
+    "airline": {
+        "name": "BoraJet Havacilik Tasimacilik Ucak Bakim Onarim Ve Ticaret A.S.",
+        "callsign": "BORA JET",
+        "iata": "YB",
+        "icao": "BRJ"
+    },
+    "flight": {
+        "number": "5032"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "07:15:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "08:35:00"
+    },
+    "airline": {
+        "name": "BoraJet Havacilik Tasimacilik Ucak Bakim Onarim Ve Ticaret A.S.",
+        "callsign": "BORA JET",
+        "iata": "YB",
+        "icao": "BRJ"
+    },
+    "flight": {
+        "number": "5002"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": null,
+        "time": "09:30:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "10:45:00"
+    },
+    "airline": {
+        "name": "BoraJet Havacilik Tasimacilik Ucak Bakim Onarim Ve Ticaret A.S.",
+        "callsign": "BORA JET",
+        "iata": "YB",
+        "icao": "BRJ"
+    },
+    "flight": {
+        "number": "44"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": null,
+        "time": "00:20:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "01:40:00"
+    },
+    "airline": {
+        "name": "BoraJet Havacilik Tasimacilik Ucak Bakim Onarim Ve Ticaret A.S.",
+        "callsign": "BORA JET",
+        "iata": "YB",
+        "icao": "BRJ"
+    },
+    "flight": {
+        "number": "40"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "10:25:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "11:45:00"
+    },
+    "airline": {
+        "name": "BoraJet Havacilik Tasimacilik Ucak Bakim Onarim Ve Ticaret A.S.",
+        "callsign": "BORA JET",
+        "iata": "YB",
+        "icao": "BRJ"
+    },
+    "flight": {
+        "number": "38"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "17:50:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "19:10:00"
+    },
+    "airline": {
+        "name": "BoraJet Havacilik Tasimacilik Ucak Bakim Onarim Ve Ticaret A.S.",
+        "callsign": "BORA JET",
+        "iata": "YB",
+        "icao": "BRJ"
+    },
+    "flight": {
+        "number": "36"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": null,
+        "time": "11:20:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "12:40:00"
+    },
+    "airline": {
+        "name": "BoraJet Havacilik Tasimacilik Ucak Bakim Onarim Ve Ticaret A.S.",
+        "callsign": "BORA JET",
+        "iata": "YB",
+        "icao": "BRJ"
+    },
+    "flight": {
+        "number": "34"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": null,
+        "time": "07:15:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "08:35:00"
+    },
+    "airline": {
+        "name": "BoraJet Havacilik Tasimacilik Ucak Bakim Onarim Ve Ticaret A.S.",
+        "callsign": "BORA JET",
+        "iata": "YB",
+        "icao": "BRJ"
+    },
+    "flight": {
+        "number": "32"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": null,
+        "time": "11:45:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "13:00:00"
+    },
+    "airline": {
+        "name": "NATIONAL AIR SERVICES dba FLYNAS",
+        "callsign": "NAS EXPRESS",
+        "iata": "XY",
+        "icao": "KNE"
+    },
+    "flight": {
+        "number": "5011"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "D",
+        "time": "06:25:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "07:40:00"
+    },
+    "airline": {
+        "name": "SunExpress",
+        "callsign": "SUNEXPRESS",
+        "iata": "XQ",
+        "icao": "SXS"
+    },
+    "flight": {
+        "number": "7531"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "19:45:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "21:05:00"
+    },
+    "airline": {
+        "name": "SunExpress",
+        "callsign": "SUNEXPRESS",
+        "iata": "XQ",
+        "icao": "SXS"
+    },
+    "flight": {
+        "number": "7528"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "07:00:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "08:15:00"
+    },
+    "airline": {
+        "name": "SunExpress",
+        "callsign": "SUNEXPRESS",
+        "iata": "XQ",
+        "icao": "SXS"
+    },
+    "flight": {
+        "number": "7526"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "D",
+        "time": "11:15:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "12:30:00"
+    },
+    "airline": {
+        "name": "SunExpress",
+        "callsign": "SUNEXPRESS",
+        "iata": "XQ",
+        "icao": "SXS"
+    },
+    "flight": {
+        "number": "7523"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "D",
+        "time": "11:15:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "12:30:00"
+    },
+    "airline": {
+        "name": "SunExpress",
+        "callsign": "SUNEXPRESS",
+        "iata": "XQ",
+        "icao": "SXS"
+    },
+    "flight": {
+        "number": "7521"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "D",
+        "time": "11:15:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "12:30:00"
+    },
+    "airline": {
+        "name": "SunExpress",
+        "callsign": "SUNEXPRESS",
+        "iata": "XQ",
+        "icao": "SXS"
+    },
+    "flight": {
+        "number": "7517"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "06:05:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "07:20:00"
+    },
+    "airline": {
+        "name": "SunExpress",
+        "callsign": "SUNEXPRESS",
+        "iata": "XQ",
+        "icao": "SXS"
+    },
+    "flight": {
+        "number": "7511"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": null,
+        "time": null
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": null
+    },
+    "airline": {
+        "name": "THY - Turkish Airlines",
+        "callsign": "TURKISH",
+        "iata": "TK",
+        "icao": "THY"
+    },
+    "flight": {
+        "number": "7637"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "D",
+        "time": "06:10:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "07:25:00"
+    },
+    "airline": {
+        "name": "THY - Turkish Airlines",
+        "callsign": "TURKISH",
+        "iata": "TK",
+        "icao": "THY"
+    },
+    "flight": {
+        "number": "7531"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "D",
+        "time": "07:15:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "08:40:00"
+    },
+    "airline": {
+        "name": "THY - Turkish Airlines",
+        "callsign": "TURKISH",
+        "iata": "TK",
+        "icao": "THY"
+    },
+    "flight": {
+        "number": "7529"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "D",
+        "time": "23:00:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "00:05:00"
+    },
+    "airline": {
+        "name": "THY - Turkish Airlines",
+        "callsign": "TURKISH",
+        "iata": "TK",
+        "icao": "THY"
+    },
+    "flight": {
+        "number": "7527"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "D",
+        "time": "11:15:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "12:30:00"
+    },
+    "airline": {
+        "name": "THY - Turkish Airlines",
+        "callsign": "TURKISH",
+        "iata": "TK",
+        "icao": "THY"
+    },
+    "flight": {
+        "number": "7523"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "D",
+        "time": "11:15:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "12:30:00"
+    },
+    "airline": {
+        "name": "THY - Turkish Airlines",
+        "callsign": "TURKISH",
+        "iata": "TK",
+        "icao": "THY"
+    },
+    "flight": {
+        "number": "7521"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "D",
+        "time": "11:15:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "12:30:00"
+    },
+    "airline": {
+        "name": "THY - Turkish Airlines",
+        "callsign": "TURKISH",
+        "iata": "TK",
+        "icao": "THY"
+    },
+    "flight": {
+        "number": "7517"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "06:05:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "07:20:00"
+    },
+    "airline": {
+        "name": "THY - Turkish Airlines",
+        "callsign": "TURKISH",
+        "iata": "TK",
+        "icao": "THY"
+    },
+    "flight": {
+        "number": "7511"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "21:10:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "22:20:00"
+    },
+    "airline": {
+        "name": "THY - Turkish Airlines",
+        "callsign": "TURKISH",
+        "iata": "TK",
+        "icao": "THY"
+    },
+    "flight": {
+        "number": "2991"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "10:25:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "11:35:00"
+    },
+    "airline": {
+        "name": "THY - Turkish Airlines",
+        "callsign": "TURKISH",
+        "iata": "TK",
+        "icao": "THY"
+    },
+    "flight": {
+        "number": "2989"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "D",
+        "time": "17:35:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "18:45:00"
+    },
+    "airline": {
+        "name": "THY - Turkish Airlines",
+        "callsign": "TURKISH",
+        "iata": "TK",
+        "icao": "THY"
+    },
+    "flight": {
+        "number": "2935"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "20:00:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "21:10:00"
+    },
+    "airline": {
+        "name": "THY - Turkish Airlines",
+        "callsign": "TURKISH",
+        "iata": "TK",
+        "icao": "THY"
+    },
+    "flight": {
+        "number": "2933"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "17:35:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "18:45:00"
+    },
+    "airline": {
+        "name": "THY - Turkish Airlines",
+        "callsign": "TURKISH",
+        "iata": "TK",
+        "icao": "THY"
+    },
+    "flight": {
+        "number": "2931"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "D",
+        "time": "13:40:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "14:50:00"
+    },
+    "airline": {
+        "name": "THY - Turkish Airlines",
+        "callsign": "TURKISH",
+        "iata": "TK",
+        "icao": "THY"
+    },
+    "flight": {
+        "number": "2929"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "09:20:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "10:30:00"
+    },
+    "airline": {
+        "name": "THY - Turkish Airlines",
+        "callsign": "TURKISH",
+        "iata": "TK",
+        "icao": "THY"
+    },
+    "flight": {
+        "number": "2927"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "07:15:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "08:30:00"
+    },
+    "airline": {
+        "name": "THY - Turkish Airlines",
+        "callsign": "TURKISH",
+        "iata": "TK",
+        "icao": "THY"
+    },
+    "flight": {
+        "number": "2925"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "05:25:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "06:40:00"
+    },
+    "airline": {
+        "name": "THY - Turkish Airlines",
+        "callsign": "TURKISH",
+        "iata": "TK",
+        "icao": "THY"
+    },
+    "flight": {
+        "number": "2923"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "01:05:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "02:20:00"
+    },
+    "airline": {
+        "name": "THY - Turkish Airlines",
+        "callsign": "TURKISH",
+        "iata": "TK",
+        "icao": "THY"
+    },
+    "flight": {
+        "number": "2921"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "09:40:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "10:55:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "5367"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "09:50:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "11:05:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "5051"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "09:45:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "11:00:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4890"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "D",
+        "time": "23:40:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "00:55:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4849"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "D",
+        "time": "09:30:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "10:45:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4847"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "10:10:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "11:20:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4841"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "06:40:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "07:55:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4831"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "D",
+        "time": "09:20:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "10:25:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4789"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "00:30:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "01:45:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4783"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": null
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": null
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4773"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "00:40:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "01:55:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4769"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "23:25:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "00:40:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4757"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "D",
+        "time": "08:15:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "09:30:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4753"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "11:45:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "13:00:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4749"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "D",
+        "time": "21:35:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "22:50:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4719"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "D",
+        "time": "06:30:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "07:45:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4663"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "D",
+        "time": "08:15:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "09:30:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4651"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "08:15:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "09:30:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4595"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "11:25:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "12:40:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4591"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "11:20:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "12:35:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4585"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "08:10:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "09:40:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4583"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "D",
+        "time": "08:15:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "09:30:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4579"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "10:40:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "11:55:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4571"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "06:40:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "07:55:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4563"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "07:30:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "08:45:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4545"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "06:40:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "07:55:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4533"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "08:00:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "09:15:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4531"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "D",
+        "time": null
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": null
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4519"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "11:10:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "12:25:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4454"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "08:30:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "09:45:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4447"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "08:50:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "10:05:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4443"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "20:10:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "21:25:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4441"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "D",
+        "time": "07:15:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "08:30:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4347"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "05:20:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "06:35:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4321"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "07:00:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "08:15:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4320"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "D",
+        "time": "23:10:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "00:25:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4149"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "D",
+        "time": "11:30:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "12:45:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4147"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "16:15:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "17:30:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4145"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "06:00:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "07:15:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4143"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "19:20:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "20:35:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "4141"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": null,
+        "time": null
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": null
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "34"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": null
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": null
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "2147"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": null,
+        "time": null
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": null
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "2064"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": null
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": null
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "2062"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "D",
+        "time": "22:55:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "00:15:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "2041"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "D",
+        "time": "08:45:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "10:05:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "2037"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "D",
+        "time": "09:35:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "10:55:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "2033"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "22:45:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "00:10:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "2031"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "06:00:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "07:25:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "2029"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "23:20:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "00:35:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "2025"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "11:45:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "13:00:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "2011"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "10:50:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "12:05:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "2009"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "09:55:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "11:15:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "2007"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "09:05:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "10:20:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "2005"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "08:30:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "09:50:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "2003"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "07:35:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "09:00:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "2001"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "09:30:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "10:45:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "149"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "21:40:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "22:55:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "147"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "D",
+        "time": "14:00:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "15:15:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "145"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "D",
+        "time": "16:30:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "17:45:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "143"
+    }
+}, {
+    "departure": {
+        "airport": "Antalya",
+        "timezone": "Europe\/Istanbul",
+        "iata": "AYT",
+        "icao": "LTAI",
+        "terminal": "1",
+        "time": "07:45:00"
+    },
+    "arrival": {
+        "airport": "Sabiha Gokcen",
+        "timezone": "Europe\/Istanbul",
+        "iata": "SAW",
+        "icao": "LTFJ",
+        "terminal": null,
+        "time": "09:05:00"
+    },
+    "airline": {
+        "name": "Pegasus Airlines",
+        "callsign": "SUNTURK",
+        "iata": "PC",
+        "icao": "PGT"
+    },
+    "flight": {
+        "number": "141"
+    }
+}]

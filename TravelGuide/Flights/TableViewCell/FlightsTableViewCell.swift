@@ -18,6 +18,7 @@ class FlightsTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
        
+        selectionStyle = .none
         flightsImage.layer.cornerRadius = 10
         flightsView.layer.cornerRadius = 10
         
