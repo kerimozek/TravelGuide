@@ -45,12 +45,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IvV-x5-MYh">
+                                <rect key="frame" x="205" y="12" width="56" height="46"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="bookmark-main"/>
+                                <connections>
+                                    <action selector="saveButtonClicked:" destination="gTV-IL-0wX" eventType="touchUpInside" id="haJ-JV-WbP"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="KtL-LQ-h0s" secondAttribute="trailing" id="6oO-rH-2eb"/>
                             <constraint firstItem="KtL-LQ-h0s" firstAttribute="top" secondItem="BL8-ya-Hy4" secondAttribute="top" id="8WP-p0-Nj3"/>
                             <constraint firstItem="KtL-LQ-h0s" firstAttribute="leading" secondItem="BL8-ya-Hy4" secondAttribute="leading" id="Aae-y7-fYB"/>
+                            <constraint firstItem="IvV-x5-MYh" firstAttribute="top" secondItem="BL8-ya-Hy4" secondAttribute="top" constant="12" id="F8d-qa-mUa"/>
+                            <constraint firstAttribute="trailing" secondItem="IvV-x5-MYh" secondAttribute="trailing" constant="12" id="MG1-Oc-GPd"/>
                             <constraint firstAttribute="trailing" secondItem="SNW-Vl-KiD" secondAttribute="trailing" constant="8" id="Prx-GA-4n3"/>
                             <constraint firstItem="SNW-Vl-KiD" firstAttribute="top" secondItem="oAz-Mc-df5" secondAttribute="bottom" id="YHH-iz-uNV"/>
                             <constraint firstItem="SNW-Vl-KiD" firstAttribute="leading" secondItem="BL8-ya-Hy4" secondAttribute="leading" constant="8" id="e2X-GH-aFa"/>
@@ -75,6 +85,7 @@
             <connections>
                 <outlet property="categoryLabelCell" destination="oAz-Mc-df5" id="s9Q-T2-EPN"/>
                 <outlet property="imageViewCell" destination="KtL-LQ-h0s" id="EsB-pl-9yC"/>
+                <outlet property="saveButton" destination="IvV-x5-MYh" id="wRb-F7-ujl"/>
                 <outlet property="shadowView" destination="hrk-Di-Bj5" id="vsC-Dk-KBL"/>
                 <outlet property="titleLabelCell" destination="SNW-Vl-KiD" id="h5i-Xa-7cD"/>
                 <outlet property="topPickView" destination="BL8-ya-Hy4" id="yVw-wb-lxi"/>
@@ -83,6 +94,7 @@
         </collectionViewCell>
     </objects>
     <resources>
+        <image name="bookmark-main" width="32" height="32"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

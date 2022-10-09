@@ -76,8 +76,9 @@ class SearchViewController: UIViewController {
             let flightList = viewModel.modelFlightsResponse
             if let searchText = sender.text {
                 self.noData.isHidden = true
+              
                 if searchText.count > 2 {
-                    
+  
                     DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                         self.tableView.isHidden = false
                         self.noData.isHidden = true
@@ -88,7 +89,6 @@ class SearchViewController: UIViewController {
                         self.tableView.reloadData()
                     }
                 } else {
-                    
                     tableView.isHidden = true
                 }
             }
@@ -100,15 +100,13 @@ class SearchViewController: UIViewController {
         buttonActive = "hotel"
         tableView.reloadData()
     }
-    
-    
+
     @IBAction func flightsButtonClicked(_ sender: Any) {
         setupFlightButton()
         buttonActive = "flight"
         tableView.reloadData()
     }
-    
-    
+  
     private func setupHotelButton() {
         let hotel = UIImage(named: "hotels-selected")! as UIImage
         let flight2 = UIImage(named: "flights-unselected")! as UIImage
@@ -116,17 +114,13 @@ class SearchViewController: UIViewController {
         flightsButtonClicked.setImage(flight2, for: .normal)
     }
     
-    
     private func setupFlightButton() {
         let flight = UIImage(named: "flights-selected")! as UIImage
         let hotel2 = UIImage(named: "hotels-unselected")! as UIImage
         flightsButtonClicked.setImage(flight, for: .normal)
         hotelsButtonClicked.setImage(hotel2, for: .normal)
     }
-    
-    
 }
-
 
 // MARK: - EXTENSIONS -
 
@@ -167,11 +161,8 @@ extension SearchViewController: UITableViewDelegate {
 }
 
 
-
-
 extension SearchViewController: UITableViewDataSource {
-    
-    
+ 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         if buttonActive == "flight" {
@@ -181,7 +172,6 @@ extension SearchViewController: UITableViewDataSource {
         }
         
     }
-    
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "SearchTableViewCell", for: indexPath) as! SearchTableViewCell
@@ -195,18 +185,15 @@ extension SearchViewController: UITableViewDataSource {
             let url = "https://icdn.ensonhaber.com/resimler/galeri/1_11617.jpg"
             cell.searchImage.kf.setImage(with: URL(string: url))
         } else {
-            
             let item = resultSearchHotel[indexPath.row]
             
             cell.titleLabel.text = item.name
             cell.detailLabel.text = item.detail
             cell.searchImage.kf.setImage(with: URL(string: item.image))
         }
-        
-        return cell
+   return cell
     }
-    
-    
+  
 }
 
 
