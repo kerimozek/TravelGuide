@@ -27,9 +27,27 @@ class DetailsModel {
         data.setValue(UUID(), forKey: "uuid")
 
         AppDelegate.sharedAppDelegate.coreDataStack.saveContext()
-        print("added info")
+        
     }
-
     
-    
+    func deleteData(_ title: String) {
+        
+        let fetchRequest: NSFetchRequest<Bookmarks> = Bookmarks.fetchRequest()
+        let predicate = NSPredicate(format: "title CONTAINS[cd] %@", title)
+        
+        fetchRequest.predicate = predicate
+        
+        do {
+            let context = AppDelegate.sharedAppDelegate.coreDataStack.managedContext
+            let result = try context.fetch(fetchRequest).first
+            
+            if let result = result {
+                context.delete(result)
+                AppDelegate.sharedAppDelegate.coreDataStack.saveContext()
+            }
+        } catch {
+            print(error.localizedDescription)
+            
+        }
+    }
 }

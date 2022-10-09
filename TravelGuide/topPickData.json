@@ -1,0 +1,56 @@
+{
+    "topPickList": [
+        {
+            "id" : "4",
+            "category" : "NATURE",
+            "images" : "https://cdn.pixabay.com/photo/2020/06/29/00/26/iris-5350997_960_720.jpg",
+            "detail" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+            "title" : "Go out into nature to breathe a sigh of relief"
+        },
+        
+        {
+            "id" : "2",
+            "category" : "TRAVEL",
+            "images" : "https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_960_720.jpg",
+            "detail" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "title" : "Under blue sky during sunset and speechless time"
+        },
+        {
+            "id" : "3",
+            "category" : "POLITICS",
+            "images" : "https://cdn.pixabay.com/photo/2017/08/03/11/05/people-2575608_960_720.jpg",
+            "detail" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+            "title" : "We are better than this!"
+        },
+ 
+        {
+            "id" : "1",
+            "category" : "LIFE STYLE",
+            "images" : "https://cdn.pixabay.com/photo/2020/05/24/02/00/barber-shop-5212059_960_720.jpg",
+            "detail" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+            "title" : "Barber shop in Italy for new style"
+        },
+
+        {
+            "id" : "5",
+            "category" : "WORLD",
+            "images" : "https://cdn.pixabay.com/photo/2018/06/18/23/03/europe-3483539_960_720.jpg",
+            "detail" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+            "title" : "Places to visit in europe"
+        },
+        {
+            "id" : "6",
+            "category" : "NEWS",
+            "images" : "https://cdn.pixabay.com/photo/2016/02/01/00/56/news-1172463_960_720.jpg",
+            "detail" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+            "title" : "World economy news"
+        },
+        {
+            "id" : "7",
+            "category" : "ENTERTAINMENT",
+            "images" : "https://cdn.pixabay.com/photo/2017/04/10/16/55/live-music-2219036_960_720.jpg",
+            "detail" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+            "title" : "The most lively concert in the world"
+        }
+    ]
+}
