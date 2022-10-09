@@ -42,14 +42,14 @@ extension FlightsViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let detailsVC = storyboard?.instantiateViewController(withIdentifier: "DetailsViewController") as! DetailsViewController
-        let url = "https://icdn.ensonhaber.com/resimler/galeri/1_11617.jpg"
+        let url = "https://images.unsplash.com/photo-1529074963764-98f45c47344b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2372&q=80"
         let flightNewItems = viewModel.flightsItem(at: indexPath.row)
         
         detailsVC.model.topPickData = .init(id: flightNewItems.flight.number,
-                                            category: flightNewItems.arrival.airport.rawValue,
+                                            category: flightNewItems.airline.callsign.rawValue,
                                             images: url,
-                                            detail: flightNewItems.airline.name.rawValue,
-                                            title: flightNewItems.flight.number)
+                                            detail: "\(flightNewItems.airline.name.rawValue) \nDeparture: \(flightNewItems.departure.airport.rawValue) - \(flightNewItems.departure.iata.rawValue) \nArrival: \(flightNewItems.arrival.airport.rawValue) - \(flightNewItems.arrival.iata.rawValue)",
+                                            title: "Flight Number: \(flightNewItems.flight.number)")
         navigationController?.pushViewController(detailsVC, animated: true)
     }
     
@@ -72,8 +72,8 @@ extension FlightsViewController: UITableViewDataSource {
         
         cell.titleLabel.text = viewModel.flightsItem(at: indexPath.row).flight.number
         print(viewModel.flightsItem(at: indexPath.row))
-        cell.detailLabel.text = viewModel.flightsItem(at: indexPath.row).arrival.airport.rawValue
-        cell.flightsImage.kf.setImage(with: URL(string: "https://icdn.ensonhaber.com/resimler/galeri/1_11617.jpg"))
+        cell.detailLabel.text = viewModel.flightsItem(at: indexPath.row).airline.name.rawValue
+        cell.flightsImage.kf.setImage(with: URL(string: "https://images.unsplash.com/photo-1529074963764-98f45c47344b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2372&q=80"))
         return cell
     }
     

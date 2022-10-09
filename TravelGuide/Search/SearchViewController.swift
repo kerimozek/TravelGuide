@@ -132,7 +132,7 @@ extension SearchViewController: UITableViewDelegate {
         
         if buttonActive == "flight" {
             
-            let url = "https://icdn.ensonhaber.com/resimler/galeri/1_11617.jpg"
+            let url = "https://images.unsplash.com/photo-1529074963764-98f45c47344b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2372&q=80"
             let flightNewItems = viewModel.flightsItem(at: indexPath.row)
             
             detailsVC.model.topPickData = .init(id: flightNewItems.flight.number,
@@ -182,7 +182,7 @@ extension SearchViewController: UITableViewDataSource {
             
             cell.titleLabel.text = item.flight.number
             cell.detailLabel.text = item.arrival.airport.rawValue
-            let url = "https://icdn.ensonhaber.com/resimler/galeri/1_11617.jpg"
+            let url = "https://images.unsplash.com/photo-1529074963764-98f45c47344b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2372&q=80"
             cell.searchImage.kf.setImage(with: URL(string: url))
         } else {
             let item = resultSearchHotel[indexPath.row]

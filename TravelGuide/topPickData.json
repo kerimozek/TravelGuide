@@ -2,55 +2,55 @@
     "topPickList": [
         {
             "id" : "4",
-            "category" : "NATURE",
-            "images" : "https://cdn.pixabay.com/photo/2020/06/29/00/26/iris-5350997_960_720.jpg",
-            "detail" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-            "title" : "Go out into nature to breathe a sigh of relief"
+            "category" : "EUROPE",
+            "images" : "https://www.goworldtravel.com/wp-content/uploads/2022/07/Porto-Portugal-feature-canva-1200x500.jpg",
+            "detail" : "Just a few hours up the coast from Lisbon by comfortable high-speed train, a taste of Porto awaits. It was here that my family and I  had a few days to enjoy the local life. Located about 200 miles north of Lisbon, Porto is a more laid-back and smaller version of the nation’s capital city. The hills were certainly there but did not seem quite as steep. The Douro River—a bloodline for Spain and Portugal—flowed through the city and into the Atlantic. Amazing architecture abounds, and the port wine was ever-present. Tourists were present as well, but there were fewer here than in Lisbon. As a result, lines were shorter, sites were less crowded and the streets and squares seemed more populated by locals than tourists. Furthermore, Porto was walkable at a leisurely pace.",
+            "title" : "A TASTE OF THINGS TO DO IN PORTO, PORTUGAL"
         },
         
         {
             "id" : "2",
-            "category" : "TRAVEL",
-            "images" : "https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_960_720.jpg",
-            "detail" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-            "title" : "Under blue sky during sunset and speechless time"
+            "category" : "ASIA",
+            "images" : "https://www.goworldtravel.com/wp-content/uploads/2022/07/Osaka-Japan.-Photo-by-Jeremy-Santana-on-Unsplash-e1659311655684-1200x500.jpg",
+            "detail" : "I could feel it as if it had just happened. The hot sweat on my skin, the late summer mosquitoes buzzing around my head, and the looks of fast pity – a gaze that almost wasn’t – as I carried my luggage uphill towards the university, just arrived from the airport. I was in Japan for a 6-month research stay at the University of Doshisha and my supervisor had wanted to meet me immediately, bags and all, as soon as I stepped on the prefecture. I was now settled in a student dorm in a rural, sleepy area in the center of the triangle formed by Kyoto, Nara, and Osaka. My everyday view was a patch of dancing bamboo that provided some shade to the town cemetery, and a carpet of red, brown, and yellow leaves covering soft, waving hills, with a few specks of suburban family houses popping out of the scenery.",
+            "title" : "THE ART OF MU – OSAKA, JAPAN"
         },
         {
             "id" : "3",
-            "category" : "POLITICS",
-            "images" : "https://cdn.pixabay.com/photo/2017/08/03/11/05/people-2575608_960_720.jpg",
-            "detail" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-            "title" : "We are better than this!"
+            "category" : "MIDDLE EAST",
+            "images" : "https://www.goworldtravel.com/wp-content/uploads/2022/08/egypt.jpg",
+            "detail" : "As a passionate traveler, I occasionally find myself roaming the internet world and reading travel articles. Even if I have no plans coming up and am cash-strapped from the last trip, it is still interesting to understand the world from locals or first-hand experience, though I’ve found capitals have always been the lamest part of any trip. I have come across a hundred posts mentioning how it is a waste of time to visit the country’s capital and it is not even worth a day. Mostly, it is understood that there is not much to see other than huge skyscraper extravaganza or the bustling city traffic. While that is the case in most of the world, it is absolutely a whole different story when it comes to visiting Cairo, Egypt.",
+            "title" : "CAIRO: THE CITY OF DIVERSITY"
         },
  
         {
             "id" : "1",
-            "category" : "LIFE STYLE",
-            "images" : "https://cdn.pixabay.com/photo/2020/05/24/02/00/barber-shop-5212059_960_720.jpg",
-            "detail" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-            "title" : "Barber shop in Italy for new style"
+            "category" : "EUROPE",
+            "images" : "https://www.goworldtravel.com/wp-content/uploads/2022/07/Vinyard-at-Sunset-e1657341659502-1200x500.jpg",
+            "detail" : "“It’s so clear you can see the whole city,” my friend Gabriela says, pointing at the scene below us. We’re in the middle of a vineyard on a hill high above Vienna. Below us, the Danube slowly winds its way through the Austrian capital. The Gothic spires of St. Stephen’s Cathedral poke high in the air, and I can see the Prater, Vienna’s Giant Ferris Wheel, in the distance. Even though it’s a view I’ve seen before, the scene makes me smile. Vienna captured my heart when I was a student studying abroad. When I arrived here, I didn’t like wine, coffee or classical music. But Vienna worked her magic, and when I left, all three were things I relish. These days, I return to Vienna as often as I can, but summer is my favorite time to visit. The outdoor patios in the Old Town are filled with diners, and the city’s palace gardens are at their peak colors. Best of all, the vineyards, which run from the edge of the Vienna Woods to the shores of the Danube, have sprung again to life. ",
+            "title" : "A VISIT TO THE VINEYARDS OF VIENNA"
         },
 
         {
             "id" : "5",
-            "category" : "WORLD",
-            "images" : "https://cdn.pixabay.com/photo/2018/06/18/23/03/europe-3483539_960_720.jpg",
-            "detail" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-            "title" : "Places to visit in europe"
+            "category" : "US and CANADA",
+            "images" : "https://www.goworldtravel.com/wp-content/uploads/2022/07/philadelphia.jpg",
+            "detail" : "Philadelphia, the largest city in Pennsylvania, is the birthplace of American democracy. Replete with colonial history, rich in art and culture, the City of Brotherly Love is an ideal tourist destination. Spring, early summer and fall would be the optimal time to visit with perfect weather, parks filled with cherry blossoms and lesser crowds. Combine it with a trip into the surrounding countryside for a splendid vacation. ",
+            "title" : "A VACATION IN PHILADELPHIA"
         },
         {
             "id" : "6",
-            "category" : "NEWS",
-            "images" : "https://cdn.pixabay.com/photo/2016/02/01/00/56/news-1172463_960_720.jpg",
-            "detail" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-            "title" : "World economy news"
+            "category" : "ASIA",
+            "images" : "https://www.goworldtravel.com/wp-content/uploads/2022/06/jikjisa-temple-1200x500.jpg",
+            "detail" : "Have you ever tried living like a Buddhist monk for a day? That’s probably not a thought that would cross your mind. In South Korea, it’s easy to get intrigued by the beauty of temple architecture and the serene landscape surrounding it. There are around 900 traditional Buddhist temples throughout the country. Joygesa is a masterpiece smack dab in the middle of Seoul to Yonggunsa, which sits on a cliff overlooking the mountains. No matter which temple you go to, big or small, you’ll always be in awe of ancient history. ",
+            "title" : "HOW TO DO A TEMPLE STAY IN SOUTH KOREA"
         },
         {
             "id" : "7",
-            "category" : "ENTERTAINMENT",
-            "images" : "https://cdn.pixabay.com/photo/2017/04/10/16/55/live-music-2219036_960_720.jpg",
-            "detail" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-            "title" : "The most lively concert in the world"
+            "category" : "US and CANADA",
+            "images" : "https://www.goworldtravel.com/wp-content/uploads/2022/04/Toronto-canva-1200x500.jpg",
+            "detail" : "No matter where you are visiting from, you will be impressed with the number of things to do in Toronto. Canada’s largest city has a vast and unique array of activities sure to please anyone. Toronto, Ontario has world-renowned restaurants, interesting museums, jaw-dropping architecture top entertainment, fun family activities and beautiful natural attractions. Furthermore, there is something for every age and taste and it would take weeks to do it all. So, we have narrowed it down to 10 of the top things to do in Toronto to get you started.",
+            "title" : "TOP 10 THINGS TO DO IN TORONTO: CANADA’S LARGEST CITY"
         }
     ]
 }

@@ -55,8 +55,8 @@
 /* Begin PBXFileReference section */
 		6E0AA3DB28ECB31100659135 /* FlightsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsViewModel.swift; sourceTree = "<group>"; };
 		6E0AA3DD28ECB31B00659135 /* FlightsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsModel.swift; sourceTree = "<group>"; };
-		6E0AA3E128ECE33F00659135 /* hotels.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = hotels.json; path = ../../hotels.json; sourceTree = "<group>"; };
-		6E0AA3E228ECE33F00659135 /* flights.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = flights.json; path = ../../flights.json; sourceTree = "<group>"; };
+		6E0AA3E128ECE33F00659135 /* hotels.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hotels.json; sourceTree = "<group>"; };
+		6E0AA3E228ECE33F00659135 /* flights.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flights.json; sourceTree = "<group>"; };
 		6E0AA3E528ECE38B00659135 /* FlightsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsEntity.swift; sourceTree = "<group>"; };
 		6E0AA3E728ECE60400659135 /* FlightsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsTableViewCell.swift; sourceTree = "<group>"; };
 		6E0AA3E828ECE60400659135 /* FlightsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlightsTableViewCell.xib; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 		6E5ED73428E9C78E005C7E0B /* HotelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsViewController.swift; sourceTree = "<group>"; };
 		6E5ED73628E9C79B005C7E0B /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		6E5ED73828E9C8E5005C7E0B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		6E71F4D228EAF5B9000D730A /* topPickData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = topPickData.json; path = ../../topPickData.json; sourceTree = "<group>"; };
+		6E71F4D228EAF5B9000D730A /* topPickData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topPickData.json; sourceTree = "<group>"; };
 		6E71F4D628EAF750000D730A /* TopPickCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPickCollectionViewCell.swift; sourceTree = "<group>"; };
 		6E71F4D728EAF750000D730A /* TopPickCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopPickCollectionViewCell.xib; sourceTree = "<group>"; };
 		6E71F4DA28EAF85D000D730A /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };

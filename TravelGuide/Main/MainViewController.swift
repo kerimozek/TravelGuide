@@ -89,11 +89,11 @@ extension MainViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "TopPickCollectionViewCell", for: indexPath) as! TopPickCollectionViewCell
         
+        
         let item = viewModel.topPickItem(at: indexPath.row)
         cell.titleLabelCell.text = item.title
         cell.categoryLabelCell.text = item.category
         cell.imageViewCell.kf.setImage(with: URL(string: item.images))
-        
         cell.saveButton.setImage(UIImage.init(named: "bookmark-main"), for: .normal)
         
         for i in self.bookmarksViewModel.model.posts {

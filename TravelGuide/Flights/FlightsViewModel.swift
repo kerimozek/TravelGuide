@@ -35,9 +35,8 @@ class FlightsViewModel {
         
         // MARK: - IF YOU WANT TO USE API PLEASE CHANGE FUNC
         //  model.getDataAPI()
-         model.getData()
+        model.getData()
     }
-    
     
 }
 
