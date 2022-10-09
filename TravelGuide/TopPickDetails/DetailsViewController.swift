@@ -11,6 +11,7 @@ import Kingfisher
 
 class DetailsViewController: UIViewController {
     
+    // OUTLETS and VARIABLES
     @IBOutlet weak var detailLabel: UITextView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var categoryLabel: UILabel!
