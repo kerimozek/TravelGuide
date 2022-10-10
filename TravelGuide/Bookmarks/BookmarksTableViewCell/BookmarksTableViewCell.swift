@@ -17,6 +17,7 @@ class BookmarksTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
+        selectionStyle = .none
         searchView.layer.cornerRadius = 10
         searchImage.layer.cornerRadius = 10
         

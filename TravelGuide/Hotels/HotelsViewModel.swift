@@ -7,7 +7,7 @@
 
 import Foundation
 
-
+// PROTOCOL
 protocol HotelsViewModelViewProtocol: AnyObject {
     func didCellItemFetch(isSuccess: Bool)
 }

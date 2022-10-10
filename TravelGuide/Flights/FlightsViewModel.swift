@@ -7,6 +7,7 @@
 
 import Foundation
 
+// PROTOCOL
 protocol FlightsViewModelViewProtocol: AnyObject {
     func didCellItemFetch(isSuccess: Bool)
 }

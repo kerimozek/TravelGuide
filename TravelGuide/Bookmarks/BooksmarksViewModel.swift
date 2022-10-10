@@ -7,11 +7,11 @@
 
 import Foundation
 
+// PROTOCOL
 protocol BookmarksViewModelViewProtocol: AnyObject {
     func didCellItemFetch(isSuccess: Bool)
 }
 
-    
 
 class BookmarksViewModel {
     

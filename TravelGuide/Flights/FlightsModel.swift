@@ -8,10 +8,10 @@
 import Foundation
 import Alamofire
 
+// PROTOCOL
 protocol FlightsModelProtocol: AnyObject {
     func didDataFetchProcessFinish(isSuccess: Bool)
 }
-
 
 class FlightsModel {
 
@@ -26,6 +26,7 @@ class FlightsModel {
         let url = URL(fileURLWithPath: path!)
 
         do {
+            // DECODING DATA
             let data = try Data(contentsOf: url)
             let result = try? JSONDecoder().decode(Flights.self, from: data)
             flightsPost?.removeAll()
@@ -47,17 +48,15 @@ class FlightsModel {
         let departureIATAcode = "AYT"
         let arrivalIATAcode = "SAW"
         let requestURL = "https://app.goflightlabs.com/routes?access_key=\(apiKey)&dep_iata=\(departureIATAcode)&arr_iata=\(arrivalIATAcode)"
-
+        // GET DATA FROM API
         AF.request(requestURL).response { response in
 
             do {
-
                 guard let data = response.data else { return }
-
+                // DECODING DATA
                 let result = try JSONDecoder().decode(Flights.self, from: data)
                 self.flightsPost?.removeAll()
                 self.flightsPost = result
-           //     print(result)
                 self.delegate?.didDataFetchProcessFinish(isSuccess: true)
             } catch {
                 self.delegate?.didDataFetchProcessFinish(isSuccess: false)

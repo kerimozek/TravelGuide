@@ -17,7 +17,6 @@ class DetailsViewController: UIViewController {
     @IBOutlet weak var categoryLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var addButton: UIButton!
-    
     var model = DetailsModel()
     var viewModel = DetailsViewModel()
     var bookmarksViewModel = BookmarksViewModel()
@@ -51,6 +50,7 @@ class DetailsViewController: UIViewController {
     
     @IBAction func addBookmarksClicked(_ sender: Any) {
         
+        // ADD OR REMOVE ITEM FROM COREDATA
         if buttonChange == .add {
             viewModel.didSaveClicked(topPickData: .init(id: model.topPickData!.id,
                                                         category: model.topPickData!.category,
@@ -67,7 +67,8 @@ class DetailsViewController: UIViewController {
         }
     }
     
-    func setupUI() {
+    // SETUP UI FUNCTION
+    private func setupUI() {
         detailLabel.isEditable = false
         imageView.clipsToBounds = true
         imageView.layer.cornerRadius = 30

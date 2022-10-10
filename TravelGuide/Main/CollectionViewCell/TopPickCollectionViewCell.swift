@@ -24,7 +24,6 @@ class TopPickCollectionViewCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        
         topPickView.layer.cornerRadius = 10
         imageViewCell.layer.cornerRadius = 10
         shadowView.layer.cornerRadius = 10

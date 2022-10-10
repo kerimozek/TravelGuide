@@ -7,6 +7,7 @@
 
 import Foundation
 
+// PROTOCOL
 protocol SearchModelProtocol: AnyObject {
     func didDataFetchProcessFinish(isSuccess: Bool)
 }
@@ -17,12 +18,14 @@ class SearchModel {
     var flightsPost: Flights? = []
     weak var delegate: SearchModelProtocol?
     
+    // GET HOTELS DATA
     func getHotelsData() {
         
         let path = Bundle.main.path(forResource: "hotels", ofType: "json")
         let url = URL(fileURLWithPath: path!)
         
         do {
+            // DECODING DATA
             let data = try Data(contentsOf: url)
             let result = try JSONDecoder().decode(ListHotel.self, from: data)
             hotelsPost?.removeAll()
@@ -35,12 +38,13 @@ class SearchModel {
         }
     }
     
-    
+    // GET FLIGHTS DATA
     func getFlightsData() {
         let path = Bundle.main.path(forResource: "flights", ofType: "json")
         let url = URL(fileURLWithPath: path!)
         
         do {
+            // DECODING DATA
             let data = try Data(contentsOf: url)
             let result = try? JSONDecoder().decode(Flights.self, from: data)
             flightsPost?.removeAll()

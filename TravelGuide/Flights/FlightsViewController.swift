@@ -10,6 +10,7 @@ import Kingfisher
 
 class FlightsViewController: UIViewController {
 
+    // OUTLETS and VARIABLES
     @IBOutlet weak var tableView: UITableView!
     var model = FlightsModel()
     var viewModel = FlightsViewModel()
@@ -19,8 +20,7 @@ class FlightsViewController: UIViewController {
 
        setupUI()
     }
-
-    
+    // SETUP UI FUNCTION
     private func setupUI() {
         tableView.delegate = self
         tableView.dataSource = self
@@ -29,7 +29,7 @@ class FlightsViewController: UIViewController {
         viewModel.viewDelegate = self
     }
     
-
+    // BACK BUTTON
     @IBAction func backButtonClicked(_ sender: Any) {
         navigationController?.popViewController(animated: true)
     }
@@ -38,6 +38,7 @@ class FlightsViewController: UIViewController {
 
 // MARK: - EXTENSIONS -
 
+// EXTENSION FOR UITableViewDelegate
 extension FlightsViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -59,6 +60,7 @@ extension FlightsViewController: UITableViewDelegate {
     
 }
 
+// EXTENSION FOR UITableViewDataSource
 extension FlightsViewController: UITableViewDataSource {
     
     
@@ -80,7 +82,7 @@ extension FlightsViewController: UITableViewDataSource {
     
 }
 
-// Delegate Protocol
+// DELEGATE PROTOCOL
 extension FlightsViewController: FlightsViewModelViewProtocol {
     func didCellItemFetch(isSuccess: Bool) {
         if isSuccess == true {

@@ -13,6 +13,7 @@ class DetailsModel {
     
     var topPickData: topPick?
     
+    // SAVE ITEM TO COREDATA
     func saveCoreData(topPickData: topPick) {
 
         let managedContext = AppDelegate.sharedAppDelegate.coreDataStack.managedContext
@@ -28,6 +29,7 @@ class DetailsModel {
         AppDelegate.sharedAppDelegate.coreDataStack.saveContext()
     }
     
+    // DELETE ITEM FROM COREDATA
     func deleteData(_ title: String) {
         
         let fetchRequest: NSFetchRequest<Bookmarks> = Bookmarks.fetchRequest()

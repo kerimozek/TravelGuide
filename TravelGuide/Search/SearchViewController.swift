@@ -42,11 +42,11 @@ class SearchViewController: UIViewController {
         viewModel.getHotelData()
         viewModel.viewDelegate = self
         noData.isHidden = true
-  //      tableView.reloadData()
+        tableView.reloadData()
         
     }
     
-    
+    // SEARCH FUNCTION
     @IBAction func searchField(_ sender: UITextField) {
         
         if buttonActive == "hotel" {
@@ -55,7 +55,7 @@ class SearchViewController: UIViewController {
             if let searchText = sender.text {
                 self.noData.isHidden = true
                 if searchText.count > 2 {
-                    
+                
                     DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                         self.tableView.isHidden = false
                         self.noData.isHidden = true
@@ -72,7 +72,6 @@ class SearchViewController: UIViewController {
         } else {
             
             let flightList = viewModel.modelFlightsResponse
-            print(flightList)
             if let searchText = sender.text {
                 self.noData.isHidden = true
             
@@ -111,6 +110,7 @@ class SearchViewController: UIViewController {
         let flight2 = UIImage(named: "flights-unselected")! as UIImage
         hotelsButtonClicked.setImage(hotel, for: .normal)
         flightsButtonClicked.setImage(flight2, for: .normal)
+        searchField.text = ""
     }
     
     private func setupFlightButton() {
@@ -118,11 +118,13 @@ class SearchViewController: UIViewController {
         let hotel2 = UIImage(named: "hotels-unselected")! as UIImage
         flightsButtonClicked.setImage(flight, for: .normal)
         hotelsButtonClicked.setImage(hotel2, for: .normal)
+        searchField.text = ""
     }
 }
 
 // MARK: - EXTENSIONS -
 
+// EXTENSION FOR UITableViewDelegate
 extension SearchViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -130,19 +132,20 @@ extension SearchViewController: UITableViewDelegate {
         let detailsVC = storyboard?.instantiateViewController(withIdentifier: "DetailsViewController") as! DetailsViewController
         
         if buttonActive == "flight" {
-            
+            // GO TO DETAILS FOR FLIGHTS
             let url = "https://images.unsplash.com/photo-1529074963764-98f45c47344b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2372&q=80"
-            let flightNewItems = viewModel.flightsItem(at: indexPath.row)
+            let flightNewItems = resultSearchFlight[indexPath.row]
             
             detailsVC.model.topPickData = .init(id: flightNewItems.flight.number,
-                                                category: flightNewItems.arrival.airport.rawValue,
+                                                category: flightNewItems.airline.callsign.rawValue,
                                                 images: url,
-                                                detail: flightNewItems.airline.name.rawValue,
-                                                title: flightNewItems.flight.number)
+                                                detail: "\(flightNewItems.airline.name.rawValue) \nDeparture: \(flightNewItems.departure.airport.rawValue) - \(flightNewItems.departure.iata.rawValue) \nArrival: \(flightNewItems.arrival.airport.rawValue) - \(flightNewItems.arrival.iata.rawValue)",
+                                                title: "Flight Number: \(flightNewItems.flight.number)")
         }
         
         else {
-            let hotelNewItems = viewModel.hotelsItem(at: indexPath.row)
+            // GO TO DETAILS FOR HOTELS
+            let hotelNewItems = resultSearchHotel[indexPath.row]
             
             detailsVC.model.topPickData = .init(id: hotelNewItems.id,
                                                 category: hotelNewItems.id,
@@ -160,6 +163,7 @@ extension SearchViewController: UITableViewDelegate {
 }
 
 
+// EXTENSION FOR UITableViewDataSource
 extension SearchViewController: UITableViewDataSource {
  
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -174,9 +178,7 @@ extension SearchViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "SearchTableViewCell", for: indexPath) as! SearchTableViewCell
-        
         if buttonActive == "flight" {
-            
             let item = resultSearchFlight[indexPath.row]
             cell.titleLabel.text = item.flight.number
             cell.detailLabel.text = item.arrival.airport.rawValue
@@ -188,12 +190,11 @@ extension SearchViewController: UITableViewDataSource {
             cell.detailLabel.text = item.detail
             cell.searchImage.kf.setImage(with: URL(string: item.image))
         }
-   return cell
+        return cell
     }
-  
 }
 
-// Delegate Protocol
+// DELEGATE PROTOCOL
 extension SearchViewController: SearchViewModelViewProtocol {
     func didCellItemFetch(isSuccess: Bool) {
         if isSuccess == true {

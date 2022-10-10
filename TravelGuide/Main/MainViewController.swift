@@ -21,9 +21,7 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         setupUI()
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -31,6 +29,7 @@ class MainViewController: UIViewController {
         collectionView.reloadData()
     }
     
+    // SETUP UI FUNCTION
     private func setupUI() {
         collectionView.delegate = self
         collectionView.dataSource = self
@@ -39,6 +38,7 @@ class MainViewController: UIViewController {
 
     }
     
+    // BOOKMARKS SAVE BUTTON
     func changeBookmarks(item: topPick) {
         var change = false
         for i in self.bookmarksViewModel.model.posts {
@@ -77,7 +77,7 @@ class MainViewController: UIViewController {
 
 // MARK: - EXTENSIONS -
 
-
+// EXTENSION FOR UICollectionViewDataSource
 extension MainViewController: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -88,7 +88,7 @@ extension MainViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "TopPickCollectionViewCell", for: indexPath) as! TopPickCollectionViewCell
         
-        
+        // SAVE BUTTON ON COLLECTIONVIEWCELL
         let item = viewModel.topPickItem(at: indexPath.row)
         cell.titleLabelCell.text = item.title
         cell.categoryLabelCell.text = item.category
@@ -111,6 +111,7 @@ extension MainViewController: UICollectionViewDataSource {
     }
 }
 
+// EXTENSION FOR UICollectionViewDelegate
 extension MainViewController: UICollectionViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
@@ -133,7 +134,7 @@ extension MainViewController: UICollectionViewDelegateFlowLayout {
     }
 }
 
-// Delegate Protocol
+// DELEGATE PROTOCOL
 extension MainViewController: MainViewModelViewProtocol {
     func didCellItemFetch(isSuccess: Bool) {
         if isSuccess == true {

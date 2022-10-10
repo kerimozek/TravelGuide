@@ -9,7 +9,8 @@ import UIKit
 import Kingfisher
 
 class HotelsViewController: UIViewController {
-
+    
+    // OUTLETS and VARIABLES
     @IBOutlet weak var tableView: UITableView!
     var model = HotelsModel()
     var viewModel = HotelsViewModel()
@@ -20,7 +21,7 @@ class HotelsViewController: UIViewController {
        setupUI()
     }
     
-    
+    // SETUP UI FUNCTION
     func setupUI() {
         tableView.delegate = self
         tableView.dataSource = self
@@ -37,6 +38,7 @@ class HotelsViewController: UIViewController {
 
 // MARK: - EXTENSIONS -
 
+// EXTENSION FOR UITableViewDelegate
 extension HotelsViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -56,6 +58,7 @@ extension HotelsViewController: UITableViewDelegate {
 
 }
 
+// EXTENSION FOR UITableViewDataSource
 extension HotelsViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -73,7 +76,7 @@ extension HotelsViewController: UITableViewDataSource {
   
 }
 
-// Delegate Protocol
+// DELEGATE PROTOCOL
 extension HotelsViewController: HotelsViewModelViewProtocol {
     func didCellItemFetch(isSuccess: Bool) {
         if isSuccess == true {

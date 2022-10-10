@@ -11,8 +11,8 @@ import Kingfisher
 
 class BookmarksViewController: UIViewController {
 
+    // OUTLETS and VARIABLES
     @IBOutlet weak var tableView: UITableView!
-    
     private var viewModel = BookmarksViewModel()
 
     
@@ -25,7 +25,8 @@ class BookmarksViewController: UIViewController {
         viewModel.didViewLoad()
         tableView.reloadData()
     }
-
+    
+    // SETUP UI FUNCTION
     private func setupUI() {
         
         tableView.delegate = self
@@ -38,22 +39,17 @@ class BookmarksViewController: UIViewController {
 
 // MARK: - EXTENSIONS -
 
-
+// EXTENSION FOR UITableViewDelegate
 extension BookmarksViewController: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
         let detailsVC = storyboard?.instantiateViewController(withIdentifier: "DetailsViewController") as! DetailsViewController
-        
-        
         let searchItem = viewModel.model.posts[indexPath.row]
-        
         detailsVC.model.topPickData = .init(id: "\(searchItem.uuid!)",
                                             category: searchItem.category!,
                                             images: searchItem.image!,
                                             detail: searchItem.detail!,
                                             title: searchItem.title!)
-        
         navigationController?.pushViewController(detailsVC, animated: true)
     }
     
@@ -62,6 +58,7 @@ extension BookmarksViewController: UITableViewDelegate {
     }
 }
 
+// EXTENSION FOR UITableViewDataSource
 extension BookmarksViewController: UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -80,7 +77,7 @@ extension BookmarksViewController: UITableViewDataSource {
     
 }
 
-// Delegate Protocol
+// DELEGATE PROTOCOL
 extension BookmarksViewController: BookmarksViewModelViewProtocol {
     func didCellItemFetch(isSuccess: Bool) {
         if isSuccess == true {

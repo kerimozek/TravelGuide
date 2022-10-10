@@ -6,6 +6,7 @@
 
 import Foundation
 
+// PROTOCOL
 protocol MainViewModelViewProtocol: AnyObject {
     func didCellItemFetch(isSuccess: Bool)
 }

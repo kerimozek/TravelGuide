@@ -7,6 +7,7 @@
 
 import Foundation
 
+// PROTOCOL
 protocol SearchViewModelViewProtocol: AnyObject {
     func didCellItemFetch(isSuccess: Bool)
 }

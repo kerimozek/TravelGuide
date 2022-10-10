@@ -8,6 +8,7 @@
 import Foundation
 import CoreData
 
+// PROTOCOL
 protocol BookmarksModelProtocol: AnyObject {
     func didDataFetchProcessFinish(isSuccess: Bool)
 }
@@ -19,6 +20,7 @@ class BookmarksModel {
     var posts: [Bookmarks] = []
     weak var delegate: BookmarksModelProtocol?
 
+    // GET DATA FROM COREDATA
     func getData() {
         
         let fetchRequest: NSFetchRequest<Bookmarks> = Bookmarks.fetchRequest()
