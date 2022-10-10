@@ -26,9 +26,11 @@ class SearchViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         setupUI()
-        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        tableView.reloadData()
     }
     
     private func setupUI() {
@@ -66,6 +68,7 @@ class SearchViewController: UIViewController {
                         self.tableView.reloadData()
                     }
                 } else {
+        
                     tableView.isHidden = true
                 }
             }
@@ -87,6 +90,7 @@ class SearchViewController: UIViewController {
                         self.tableView.reloadData()
                     }
                 } else {
+                    
                     tableView.isHidden = true
                 }
             }
@@ -96,12 +100,14 @@ class SearchViewController: UIViewController {
     @IBAction func hotelsButtonClicked(_ sender: Any) {
         setupHotelButton()
         buttonActive = "hotel"
+        resultSearchHotel.removeAll()
         tableView.reloadData()
     }
 
     @IBAction func flightsButtonClicked(_ sender: Any) {
         setupFlightButton()
         buttonActive = "flight"
+        resultSearchFlight.removeAll()
         tableView.reloadData()
     }
   
