@@ -7,6 +7,10 @@
 
 import Foundation
 
+protocol SearchViewModelViewProtocol: AnyObject {
+    func didCellItemFetch(isSuccess: Bool)
+}
+
 
 class SearchViewModel {
     
@@ -14,6 +18,12 @@ class SearchViewModel {
     var modelHotelsResponse : [Hotels] = []
     var modelFlights = FlightsModel()
     var modelFlightsResponse : Flights = []
+    var model = SearchModel()
+    weak var viewDelegate: SearchViewModelViewProtocol?
+    
+    init() {
+        model.delegate = self
+    }
     
     var numberOfHotelItems : Int {
         self.modelHotelsResponse.count
@@ -42,4 +52,18 @@ class SearchViewModel {
         self.modelFlightsResponse = modelFlights.flightsPost!
     }
     
+}
+
+
+// MARK: - SearchViewModelProtocol
+
+extension SearchViewModel: SearchModelProtocol {
+    
+    func didDataFetchProcessFinish(isSuccess: Bool) {
+        if isSuccess {
+            viewDelegate?.didCellItemFetch(isSuccess: true)
+        } else {
+            viewDelegate?.didCellItemFetch(isSuccess: false)
+        }
+    }
 }

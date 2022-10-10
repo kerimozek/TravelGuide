@@ -26,17 +26,12 @@ class HotelsViewController: UIViewController {
         tableView.dataSource = self
         tableView.register(.init(nibName: "HotelsTableViewCell", bundle: nil), forCellReuseIdentifier: "HotelsTableViewCell")
         viewModel.getMainData()
-        tableView.reloadData()
+        viewModel.viewDelegate = self
     }
     
     @IBAction func backButtonClicked(_ sender: Any) {
-     
-     
         navigationController?.popViewController(animated: true)
     }
-    
-   
-
 }
 
 
@@ -45,43 +40,49 @@ class HotelsViewController: UIViewController {
 extension HotelsViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
         let detailsVC = storyboard?.instantiateViewController(withIdentifier: "DetailsViewController") as! DetailsViewController
-    
         let hotelNewItems = viewModel.hotelsItem(at: indexPath.row)
-        
         detailsVC.model.topPickData = .init(id: hotelNewItems.id,
                                             category: hotelNewItems.id,
                                             images: hotelNewItems.image,
                                             detail: hotelNewItems.detail,
                                             title: hotelNewItems.name)
-        
         navigationController?.pushViewController(detailsVC, animated: true)
     }
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         cell.backgroundColor = UIColor.clear
     }
-    
-    
+
 }
 
 extension HotelsViewController: UITableViewDataSource {
     
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         viewModel.modelResponse.count
     }
-    
  
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "HotelsTableViewCell", for: indexPath) as! HotelsTableViewCell
-        
-        cell.titleLabel.text = viewModel.hotelsItem(at: indexPath.row).name
-        cell.detailLabel.text = viewModel.hotelsItem(at: indexPath.row).detail
-        cell.hotelsImage.kf.setImage(with: URL(string: viewModel.hotelsItem(at: indexPath.row).image))
+        let hotelNewItems = viewModel.hotelsItem(at: indexPath.row)
+        cell.titleLabel.text = hotelNewItems.name
+        cell.detailLabel.text = hotelNewItems.detail
+        cell.hotelsImage.kf.setImage(with: URL(string: hotelNewItems.image))
         return cell
     }
-    
-    
+  
+}
+
+// Delegate Protocol
+extension HotelsViewController: HotelsViewModelViewProtocol {
+    func didCellItemFetch(isSuccess: Bool) {
+        if isSuccess == true {
+            DispatchQueue.main.async  { [weak self] in
+                guard let self = self else {return}
+                self.tableView.reloadData()
+            }
+        } else {
+            print("error")
+        }
+    }
 }

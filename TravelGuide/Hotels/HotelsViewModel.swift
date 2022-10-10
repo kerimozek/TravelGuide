@@ -8,10 +8,19 @@
 import Foundation
 
 
+protocol HotelsViewModelViewProtocol: AnyObject {
+    func didCellItemFetch(isSuccess: Bool)
+}
+
 class HotelsViewModel {
     
     var model = HotelsModel()
     var modelResponse : [Hotels] = []
+    weak var viewDelegate: HotelsViewModelViewProtocol?
+    
+    init() {
+        model.delegate = self
+    }
     
     var numberOfItems : Int {
         self.modelResponse.count
@@ -26,4 +35,17 @@ class HotelsViewModel {
         self.modelResponse = model.hotelsPost!
     }
     
+}
+
+// MARK: - HotelsViewModelProtocol
+
+extension HotelsViewModel: HotelsModelProtocol {
+    
+    func didDataFetchProcessFinish(isSuccess: Bool) {
+        if isSuccess {
+            viewDelegate?.didCellItemFetch(isSuccess: true)
+        } else {
+            viewDelegate?.didCellItemFetch(isSuccess: false)
+        }
+    }
 }

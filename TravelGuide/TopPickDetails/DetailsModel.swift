@@ -12,7 +12,6 @@ import CoreData
 class DetailsModel {
     
     var topPickData: topPick?
-
     
     func saveCoreData(topPickData: topPick) {
 
@@ -27,7 +26,6 @@ class DetailsModel {
         data.setValue(UUID(), forKey: "uuid")
 
         AppDelegate.sharedAppDelegate.coreDataStack.saveContext()
-        
     }
     
     func deleteData(_ title: String) {
@@ -47,7 +45,6 @@ class DetailsModel {
             }
         } catch {
             print(error.localizedDescription)
-            
         }
     }
 }

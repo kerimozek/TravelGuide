@@ -69,11 +69,11 @@ extension FlightsViewController: UITableViewDataSource {
  
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "FlightsTableViewCell", for: indexPath) as! FlightsTableViewCell
-        
-        cell.titleLabel.text = viewModel.flightsItem(at: indexPath.row).flight.number
-        print(viewModel.flightsItem(at: indexPath.row))
-        cell.detailLabel.text = viewModel.flightsItem(at: indexPath.row).airline.name.rawValue
-        cell.flightsImage.kf.setImage(with: URL(string: "https://images.unsplash.com/photo-1529074963764-98f45c47344b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2372&q=80"))
+        let newFlightsItem = viewModel.flightsItem(at: indexPath.row)
+        cell.titleLabel.text = newFlightsItem.flight.number
+        cell.detailLabel.text = newFlightsItem.airline.name.rawValue
+        let url = "https://images.unsplash.com/photo-1529074963764-98f45c47344b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2372&q=80"
+        cell.flightsImage.kf.setImage(with: URL(string: url))
         return cell
     }
     

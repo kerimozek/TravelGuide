@@ -40,8 +40,9 @@ class SearchViewController: UIViewController {
         tableView.register(.init(nibName: "SearchTableViewCell", bundle: nil), forCellReuseIdentifier: "SearchTableViewCell")
         viewModel.getFlightData()
         viewModel.getHotelData()
+        viewModel.viewDelegate = self
         noData.isHidden = true
-        tableView.reloadData()
+  //      tableView.reloadData()
         
     }
     
@@ -65,18 +66,16 @@ class SearchViewController: UIViewController {
                         self.tableView.reloadData()
                     }
                 } else {
-                    
                     tableView.isHidden = true
-                    
                 }
             }
-            
         } else {
             
             let flightList = viewModel.modelFlightsResponse
+            print(flightList)
             if let searchText = sender.text {
                 self.noData.isHidden = true
-              
+            
                 if searchText.count > 2 {
   
                     DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
@@ -179,14 +178,12 @@ extension SearchViewController: UITableViewDataSource {
         if buttonActive == "flight" {
             
             let item = resultSearchFlight[indexPath.row]
-            
             cell.titleLabel.text = item.flight.number
             cell.detailLabel.text = item.arrival.airport.rawValue
             let url = "https://images.unsplash.com/photo-1529074963764-98f45c47344b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2372&q=80"
             cell.searchImage.kf.setImage(with: URL(string: url))
         } else {
             let item = resultSearchHotel[indexPath.row]
-            
             cell.titleLabel.text = item.name
             cell.detailLabel.text = item.detail
             cell.searchImage.kf.setImage(with: URL(string: item.image))
@@ -196,6 +193,17 @@ extension SearchViewController: UITableViewDataSource {
   
 }
 
-
-
+// Delegate Protocol
+extension SearchViewController: SearchViewModelViewProtocol {
+    func didCellItemFetch(isSuccess: Bool) {
+        if isSuccess == true {
+            DispatchQueue.main.async  { [weak self] in
+                guard let self = self else {return}
+                self.tableView.reloadData()
+            }
+        } else {
+            print("error")
+        }
+    }
+}
 

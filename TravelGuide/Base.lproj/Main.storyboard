@@ -331,7 +331,7 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" secondItem="OJs-g8-A3u" secondAttribute="height" multiplier="1:1" id="Lyf-Nn-lJW"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ccc-Jv-bv8">
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ccc-Jv-bv8">
                                 <rect key="frame" x="8" y="52" width="69" height="54"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="bIQ-IK-bZn"/>
@@ -349,7 +349,6 @@
                         <constraints>
                             <constraint firstItem="Oke-BW-Feg" firstAttribute="leading" secondItem="gEN-oc-GDo" secondAttribute="leading" constant="20" id="7cy-Fv-g6R"/>
                             <constraint firstItem="gEN-oc-GDo" firstAttribute="trailing" secondItem="Oke-BW-Feg" secondAttribute="trailing" constant="20" id="CLr-yK-fy8"/>
-                            <constraint firstItem="Ccc-Jv-bv8" firstAttribute="top" secondItem="gEN-oc-GDo" secondAttribute="top" constant="8" id="D6C-VH-KdG"/>
                             <constraint firstItem="zyM-o8-fc9" firstAttribute="leading" secondItem="gEN-oc-GDo" secondAttribute="leading" constant="20" id="IPh-Aw-gqM"/>
                             <constraint firstItem="gEN-oc-GDo" firstAttribute="trailing" secondItem="zyM-o8-fc9" secondAttribute="trailing" constant="20" id="ITj-ii-Xxs"/>
                             <constraint firstItem="Vzf-54-MD0" firstAttribute="top" secondItem="Vbc-Yz-XbA" secondAttribute="bottom" constant="8" id="LpV-yi-xaT"/>

@@ -33,14 +33,14 @@ class FlightsViewModel {
     
     func getMainData() {
         
-        // MARK: - IF YOU WANT TO USE API PLEASE CHANGE FUNC
+        // MARK: - IF YOU WANT TO USE API PLEASE CHANGE FUNC -
         //  model.getDataAPI()
         model.getData()
     }
     
 }
 
-// MARK: - PostListModelProtocol
+// MARK: - FlightsViewModelProtocol
 
 extension FlightsViewModel: FlightsModelProtocol {
     

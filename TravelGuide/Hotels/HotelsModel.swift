@@ -7,11 +7,14 @@
 
 import Foundation
 
+protocol HotelsModelProtocol: AnyObject {
+    func didDataFetchProcessFinish(isSuccess: Bool)
+}
 
 class HotelsModel {
-    
-    
+
     var hotelsPost: [Hotels]? = []
+    weak var delegate: HotelsModelProtocol?
     
     func getData() {
         let path = Bundle.main.path(forResource: "hotels", ofType: "json")
@@ -22,11 +25,11 @@ class HotelsModel {
             let result = try JSONDecoder().decode(ListHotel.self, from: data)
             hotelsPost?.removeAll()
             hotelsPost = result.ListHotels
+            delegate?.didDataFetchProcessFinish(isSuccess: true)
         }
         catch {
+            delegate?.didDataFetchProcessFinish(isSuccess: false)
             print(error.localizedDescription)
         }
     }
-    
-    
 }

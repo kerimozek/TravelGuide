@@ -36,8 +36,7 @@ class MainViewController: UIViewController {
         collectionView.dataSource = self
         collectionView.register(.init(nibName: "TopPickCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "TopPickCollectionViewCell")
         viewModel.getMainData()
-        //   bookmarksViewModel.didViewLoad()
-        
+
     }
     
     func changeBookmarks(item: topPick) {
@@ -134,4 +133,17 @@ extension MainViewController: UICollectionViewDelegateFlowLayout {
     }
 }
 
+// Delegate Protocol
+extension MainViewController: MainViewModelViewProtocol {
+    func didCellItemFetch(isSuccess: Bool) {
+        if isSuccess == true {
+            DispatchQueue.main.async  { [weak self] in
+                guard let self = self else {return}
+                self.collectionView.reloadData()
+            }
+        } else {
+            print("error")
+        }
+    }
+}
 

@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 class DetailsViewModel {
     
     var model = DetailsModel()
@@ -20,7 +19,6 @@ class DetailsViewModel {
     func didDeleteClicked(_ title: String) {
         model.deleteData(title)
     }
-    
-
 }
+
 

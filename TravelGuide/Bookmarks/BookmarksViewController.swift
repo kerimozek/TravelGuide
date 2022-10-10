@@ -18,9 +18,7 @@ class BookmarksViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         setupUI()
-       
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -32,7 +30,8 @@ class BookmarksViewController: UIViewController {
         
         tableView.delegate = self
         tableView.dataSource = self
-        tableView.register(.init(nibName: "BookmarksTableViewCell", bundle: nil), forCellReuseIdentifier: "BookmarksTableViewCell")   
+        tableView.register(.init(nibName: "BookmarksTableViewCell", bundle: nil), forCellReuseIdentifier: "BookmarksTableViewCell")
+        viewModel.viewDelegate = self
     }
 }
 
@@ -71,14 +70,26 @@ extension BookmarksViewController: UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "BookmarksTableViewCell", for: indexPath) as! BookmarksTableViewCell
-        cell.titleLabel.text = viewModel.model.posts[indexPath.row].title
-        cell.detailLabel.text = viewModel.model.posts[indexPath.row].detail
-        cell.searchImage.kf.setImage(with: URL(string: viewModel.model.posts[indexPath.row].image!))
+        let newItems = viewModel.model.posts[indexPath.row]
+        cell.titleLabel.text = newItems.title
+        cell.detailLabel.text = newItems.detail
+        cell.searchImage.kf.setImage(with: URL(string: newItems.image!))
         return cell
         
     }
-
-
-
+    
 }
 
+// Delegate Protocol
+extension BookmarksViewController: BookmarksViewModelViewProtocol {
+    func didCellItemFetch(isSuccess: Bool) {
+        if isSuccess == true {
+            DispatchQueue.main.async  { [weak self] in
+                guard let self = self else {return}
+                self.tableView.reloadData()
+            }
+        } else {
+            print("error")
+        }
+    }
+}

@@ -45,7 +45,6 @@ class DetailsViewController: UIViewController {
         }
     }
     
-    
     @IBAction func backButtonClicked(_ sender: Any) {
         navigationController?.popViewController(animated: true)
     }
@@ -82,3 +81,6 @@ class DetailsViewController: UIViewController {
         }
     }
 }
+
+
+

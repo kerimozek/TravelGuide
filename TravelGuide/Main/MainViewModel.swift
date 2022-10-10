@@ -6,12 +6,16 @@
 
 import Foundation
 
+protocol MainViewModelViewProtocol: AnyObject {
+    func didCellItemFetch(isSuccess: Bool)
+}
+
 
 class MainViewModel {
     
     var model = MainModel()
     var modelResponse : [topPick] = []
-  
+    weak var viewDelegate: MainViewModelViewProtocol?
     
     var numberOfItems : Int {
         self.modelResponse.count
@@ -28,5 +32,16 @@ class MainViewModel {
     
 }
 
+// MARK: - MainViewModelProtocol
 
+extension MainViewModel: MainModelProtocol {
+    
+    func didDataFetchProcessFinish(isSuccess: Bool) {
+        if isSuccess {
+            viewDelegate?.didCellItemFetch(isSuccess: true)
+        } else {
+            viewDelegate?.didCellItemFetch(isSuccess: false)
+        }
+    }
+}
 
