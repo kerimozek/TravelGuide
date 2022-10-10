@@ -12,6 +12,8 @@
 - When you click on any 'row' saved in the Tableview, it goes to the detail page and the detail information appears there. When the 'Remove Bookmark' button is pressed, data will delete from CoreData.
 - If the app is not working because of Kingfisher or Alamofire, please wait for Kingfisher and Alamofire to finish fetch. If the problem persists, you should install Kingfisher and Alamofire from Swift Package Manager. Or just right click on Kingfisher and Alamofire and press "Add Packages" to add missing packages.
 
+## NOTE: I used both mock JSON and API to fetch Flights data.If you want the data to be fetched via API, you can change the code in the getMainData() function from the FlightsViewModel.
+
 # TOOLS
 
 ## Swift 
