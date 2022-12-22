@@ -16,11 +16,13 @@ class BookmarksTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        
+        setupUI()
+    }
+    
+    private func setupUI() {
         selectionStyle = .none
         searchView.layer.cornerRadius = 10
         searchImage.layer.cornerRadius = 10
-        
     }
 
     
